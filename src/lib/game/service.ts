@@ -1,6 +1,6 @@
 import "server-only";
 import { and, asc, eq, gte, inArray, lte, max, min, sql } from "drizzle-orm";
-import { INITIAL_CASH, PRE_HISTORY_DAYS, SCENARIO_DAYS, TAX_RATE } from "@/config/game";
+import { ABANDON_PENALTY_SCORE, INITIAL_CASH, PRE_HISTORY_DAYS, SCENARIO_DAYS, TAX_RATE } from "@/config/game";
 import { db, schema } from "@/lib/db";
 import { addDays, isWeekday, nextWeekday, parseIso, type IsoDate } from "@/lib/engine/calendar";
 import {
@@ -307,7 +307,9 @@ async function finishInTx(
     finalValue = liquidationValue(state, (id) => lastDay.get(id)?.bar.close, ctx);
     bench = simulateBenchmark(allIds, days, INITIAL_CASH, ctx);
   }
-  const score = excessReturnScore(finalValue, bench.finalValue, INITIAL_CASH);
+  const raw = excessReturnScore(finalValue, bench.finalValue, INITIAL_CASH);
+  // ランク戦の放棄で得をしないよう、スコアは ABANDON_PENALTY_SCORE 以下にする（資産額は実際のまま残す）
+  const score = status === "abandoned" && s.mode === "ranked" ? Math.min(raw, ABANDON_PENALTY_SCORE) : raw;
   await tx
     .update(schema.orders)
     .set({ status: "cancelled", closedDay: end })

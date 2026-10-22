@@ -110,3 +110,24 @@ test("練習モード：期間を指定すると実日付が見える", async ({
   await expect(page).toHaveURL(/\/play\//);
   await expect(page.getByText("2020-02-03")).toBeVisible();
 });
+
+test("ランク戦の放棄は -20pt 以下、練習モードの放棄は補正しない", async ({ page }) => {
+  await login(page, `e2e-abandon-${Date.now()}`);
+  for (const mode of ["ranked", "practice"] as const) {
+    const { id } = await (await page.request.post("/api/scenarios", { data: { mode } })).json();
+    // 現金のまま1日進めてから放棄（補正がなければ、市場が下がった日はプラスのスコアになる）
+    expect((await page.request.post(`/api/scenarios/${id}/advance`, { data: { steps: 1 } })).ok()).toBeTruthy();
+    expect((await page.request.post(`/api/scenarios/${id}/abandon`)).ok()).toBeTruthy();
+    const v = await (await page.request.get(`/api/scenarios/${id}`)).json();
+    expect(v.status).toBe("abandoned");
+    expect(v.result.finalValue).toBe(10_000_000);
+    const raw = (v.result.finalValue / 10_000_000 - v.result.benchmarkValue / 10_000_000) * 100;
+    if (mode === "ranked") {
+      expect(v.result.score).toBeCloseTo(Math.min(raw, -20), 6);
+      await page.goto(`/result/${id}`);
+      await expect(page.getByTestId("abandon-note")).toBeVisible();
+    } else {
+      expect(v.result.score).toBeCloseTo(raw, 6);
+    }
+  }
+});

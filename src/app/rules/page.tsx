@@ -1,4 +1,4 @@
-import { COSTS, FX_FEE, INITIAL_CASH, MIN_SCENARIOS_FOR_RANKING, SCENARIO_DAYS, TAX_RATE } from "@/config/game";
+import { ABANDON_PENALTY_SCORE, COSTS, FX_FEE, INITIAL_CASH, MIN_SCENARIOS_FOR_RANKING, SCENARIO_DAYS, TAX_RATE } from "@/config/game";
 import { yen } from "@/lib/format";
 import { ja } from "@/lib/i18n/ja";
 
@@ -14,6 +14,7 @@ export default function RulesPage() {
         days: SCENARIO_DAYS,
         tax: p(TAX_RATE),
         minRanked: MIN_SCENARIOS_FOR_RANKING,
+        penalty: ABANDON_PENALTY_SCORE,
       }).map((s) => (
         <section key={s.heading}>
           <h2 className="mb-1.5 text-base font-semibold">{s.heading}</h2>

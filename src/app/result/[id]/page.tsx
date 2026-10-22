@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
 import { auth } from "@/auth";
+import { ABANDON_PENALTY_SCORE } from "@/config/game";
 import { EquityChart } from "@/components/EquityChart";
 import { History } from "@/components/play/Portfolio";
 import { StartButton } from "@/components/StartButton";
@@ -48,6 +49,11 @@ export default async function ResultPage({ params }: PageProps<"/result/[id]">) 
             <div className={`text-sm ${tone(benchRet)}`}>{pct(benchRet)}</div>
           </div>
         </div>
+        {view.status === "abandoned" && view.mode === "ranked" && (
+          <p className="mt-4 text-sm text-down" data-testid="abandon-note">
+            {ja.result.abandonNote(ABANDON_PENALTY_SCORE)}
+          </p>
+        )}
         {view.period && (
           <p className="mt-5 rounded-lg bg-panel-2 p-3 text-sm" data-testid="period">
             {ja.result.period}: <strong>{view.period.start}</strong> 〜 <strong>{view.period.end}</strong>

@@ -40,7 +40,10 @@ export const ja = {
     next1: "1日進む",
     next5: "1週間進む",
     abandon: "放棄する",
-    abandonConfirm: "放棄すると、現時点の成績で確定します。よろしいですか？",
+    abandonConfirm: (mode: "ranked" | "practice", penalty: number) =>
+      mode === "ranked"
+        ? `放棄すると、スコアは「現時点の成績」と「${penalty}pt」の低い方で確定します。よろしいですか？`
+        : "放棄すると、現時点の成績で終了します。よろしいですか？",
     equity: "評価額",
     cash: "現金",
     returnRate: "収益率",
@@ -132,6 +135,7 @@ export const ja = {
     trades: "取引の記録",
     again: "もう一度ランク戦",
     review: "チャートと取引を振り返る",
+    abandonNote: (penalty: number) => `放棄したため、スコアは ${penalty}pt 以下に補正されています（資産額は放棄時点の実際の値）。`,
   },
   practice: {
     title: "練習モード",
@@ -157,7 +161,7 @@ export const ja = {
     title: "ルール",
     costsHeading: "取引コスト",
     costCols: { market: "市場", commission: "手数料", spread: "スプレッド（片道）", fx: "為替手数料（片道）" },
-    sections: (v: { initialCash: string; days: number; tax: string; minRanked: number }) => [
+    sections: (v: { initialCash: string; days: number; tax: string; minRanked: number; penalty: number }) => [
       {
         heading: "ゲームの流れ",
         items: [
@@ -189,7 +193,7 @@ export const ja = {
         items: [
           "終了時に全保有を最終日の終値で売ったとみなし、含み益への税金とコストを引いた最終資産で評価します。",
           "同じ期間に「全銘柄を均等に買って放置した場合」（ベンチマーク）と比べ、どれだけ上回ったかがスコア（%ポイント）です。",
-          `ランク戦は同時に1本まで。途中で放棄すると、その時点の成績で確定します。`,
+          `ランク戦は同時に1本まで。途中で放棄すると、スコアは「その時点の成績」と「${v.penalty}pt」の低い方になります。`,
           `月間ランキングは、その月に終えたランク戦の平均スコアで決まります（${v.minRanked} 回以上）。`,
         ],
       },

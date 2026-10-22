@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo, useState } from "react";
+import { ABANDON_PENALTY_SCORE } from "@/config/game";
 import { api } from "@/lib/client";
 import { pct, rate, ratio, tone, yen } from "@/lib/format";
 import type { InstrumentView, MarketRow, ScenarioView } from "@/lib/game/views";
@@ -107,7 +108,7 @@ export function PlayClient({ id, initial, initialMarket }: Props) {
                 className="btn btn-danger"
                 disabled={busy}
                 onClick={() => {
-                  if (!confirm(ja.play.abandonConfirm)) return;
+                  if (!confirm(ja.play.abandonConfirm(view.mode, ABANDON_PENALTY_SCORE))) return;
                   act(async () => {
                     await api(`/api/scenarios/${id}/abandon`, { method: "POST" });
                     router.push(`/result/${id}`);
