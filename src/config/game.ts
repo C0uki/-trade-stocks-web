@@ -15,6 +15,12 @@ export const TAX_RATE = 0.20315;
 /** 月間ランキングに載るのに必要な完了シナリオ数 */
 export const MIN_SCENARIOS_FOR_RANKING = 3;
 
+/** 架空データの暦の起点。この年を「架空暦1年目」とする */
+export const SYNTHETIC_EPOCH = "2001-01-01";
+
+/** 生成する架空の歴史の長さ（年） */
+export const SYNTHETIC_YEARS = 30;
+
 /** ランク戦を放棄したときのスコアの上限。放棄時点の成績がこれより良くても、この値に下げる */
 export const ABANDON_PENALTY_SCORE = -20;
 

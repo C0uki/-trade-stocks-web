@@ -13,6 +13,7 @@ import { db, schema } from "../../src/lib/db";
 import { addDays, toIso } from "../../src/lib/engine/calendar";
 import type { DataProvider } from "./provider";
 import { YahooProvider } from "./providers/yahoo";
+import { refreshDateRange, upsertInstrument, writeBars, writeDividends, writeFx } from "./writer";
 import type { UniverseEntry } from "./universe/types";
 
 const { values: args } = parseArgs({
@@ -26,7 +27,6 @@ const { values: args } = parseArgs({
 
 const provider: DataProvider = new YahooProvider();
 const today = toIso(Date.now());
-const BATCH = 2000;
 
 async function withRetry<T>(label: string, fn: () => Promise<T>): Promise<T> {
   for (let attempt = 0; ; attempt++) {
@@ -46,39 +46,25 @@ async function importFx() {
     const [{ last }] = await db
       .select({ last: sql<string | null>`max(${schema.fxRates.date})` })
       .from(schema.fxRates)
-      .where(eq(schema.fxRates.currency, currency));
+      .where(and(eq(schema.fxRates.dataset, "real"), eq(schema.fxRates.currency, currency)));
     const from = last ? addDays(last, -7) : args.from!;
     const rows = await withRetry(`FX ${currency}`, () => provider.fetchFx(currency, from, today));
-    for (let i = 0; i < rows.length; i += BATCH) {
-      await db
-        .insert(schema.fxRates)
-        .values(rows.slice(i, i + BATCH).map((r) => ({ currency, date: r.date, jpyPerUnit: r.value })))
-        .onConflictDoUpdate({
-          target: [schema.fxRates.currency, schema.fxRates.date],
-          set: { jpyPerUnit: sql`excluded.jpy_per_unit` },
-        });
-    }
+    await writeFx("real", currency, rows);
     console.log(`FX ${currency}: ${rows.length} 行`);
   }
 }
 
 async function importInstrument(e: UniverseEntry) {
-  const [inst] = await db
-    .insert(schema.instruments)
-    .values({
-      symbol: e.symbol,
-      providerSymbol: e.providerSymbol,
-      name: e.name,
-      kind: e.kind,
-      market: e.market,
-      currency: e.currency,
-      sector: e.sector,
-    })
-    .onConflictDoUpdate({
-      target: schema.instruments.providerSymbol,
-      set: { symbol: e.symbol, name: e.name, sector: e.sector },
-    })
-    .returning();
+  const inst = await upsertInstrument({
+    dataset: "real",
+    symbol: e.symbol,
+    providerSymbol: e.providerSymbol,
+    name: e.name,
+    kind: e.kind,
+    market: e.market,
+    currency: e.currency,
+    sector: e.sector,
+  });
   for (const code of e.indexes) {
     await db.insert(schema.indexMemberships).values({ instrumentId: inst.id, indexCode: code }).onConflictDoNothing();
   }
@@ -90,27 +76,8 @@ async function importInstrument(e: UniverseEntry) {
     console.warn(`  ${e.providerSymbol}: 通貨が ${data.currency}（想定 ${e.currency}）のためスキップ`);
     return 0;
   }
-  for (let i = 0; i < data.bars.length; i += BATCH) {
-    await db
-      .insert(schema.dailyBars)
-      .values(data.bars.slice(i, i + BATCH).map((b) => ({ instrumentId: inst.id, ...b })))
-      .onConflictDoUpdate({
-        target: [schema.dailyBars.instrumentId, schema.dailyBars.date],
-        set: {
-          open: sql`excluded.open`,
-          high: sql`excluded.high`,
-          low: sql`excluded.low`,
-          close: sql`excluded.close`,
-          volume: sql`excluded.volume`,
-        },
-      });
-  }
-  if (data.dividends.length) {
-    await db
-      .insert(schema.dividends)
-      .values(data.dividends.map((d) => ({ instrumentId: inst.id, ...d })))
-      .onConflictDoNothing();
-  }
+  await writeBars(inst.id, data.bars);
+  await writeDividends(inst.id, data.dividends);
   if (data.splits.length) {
     await db
       .insert(schema.splits)
@@ -126,13 +93,7 @@ async function importInstrument(e: UniverseEntry) {
         .onConflictDoNothing();
     }
   }
-  await db
-    .update(schema.instruments)
-    .set({
-      firstDate: sql`(select min(date) from ${schema.dailyBars} where instrument_id = ${inst.id})`,
-      lastDate: sql`(select max(date) from ${schema.dailyBars} where instrument_id = ${inst.id})`,
-    })
-    .where(and(eq(schema.instruments.id, inst.id)));
+  await refreshDateRange(inst.id);
   return data.bars.length;
 }
 

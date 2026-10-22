@@ -17,6 +17,6 @@ export default defineConfig({
     url: `http://localhost:${PORT}`,
     reuseExistingServer: true,
     timeout: 180_000,
-    env: { AUTH_DEV_LOGIN: "1" },
+    env: { AUTH_DEV_LOGIN: "1", ADMIN_EMAILS: "e2e-admin@dev.local" },
   },
 });

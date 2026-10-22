@@ -2,6 +2,7 @@ import "server-only";
 import { and, asc, eq, gte, inArray, lte, max, min, sql } from "drizzle-orm";
 import { ABANDON_PENALTY_SCORE, INITIAL_CASH, PRE_HISTORY_DAYS, SCENARIO_DAYS, TAX_RATE } from "@/config/game";
 import { db, schema } from "@/lib/db";
+import type { Dataset } from "@/lib/db/schema";
 import { addDays, isWeekday, nextWeekday, parseIso, type IsoDate } from "@/lib/engine/calendar";
 import {
   advanceDay,
@@ -36,11 +37,12 @@ export function engineContext(m: ScenarioMarket): EngineContext {
   };
 }
 
-/** day0 として選べる範囲（取り込み済みデータ全体から、前後の余白を除いたもの） */
-export async function selectableRange(): Promise<{ min: IsoDate; max: IsoDate } | null> {
+/** day0 として選べる範囲（そのデータの全期間から、前後の余白を除いたもの） */
+export async function selectableRange(dataset: Dataset): Promise<{ min: IsoDate; max: IsoDate } | null> {
   const [r] = await db
-    .select({ first: min(schema.dailyBars.date), last: max(schema.dailyBars.date) })
-    .from(schema.dailyBars);
+    .select({ first: min(schema.instruments.firstDate), last: max(schema.instruments.lastDate) })
+    .from(schema.instruments)
+    .where(eq(schema.instruments.dataset, dataset));
   if (!r?.first || !r.last) return null;
   // 平日数を暦日に直すざっくりした換算（7/5 倍）に余裕を足す
   const toCal = (weekdays: number) => Math.ceil((weekdays * 7) / 5) + 7;
@@ -60,9 +62,16 @@ function randomWeekday(lo: IsoDate, hi: IsoDate): IsoDate {
 
 export async function createScenario(
   userId: string,
-  input: { mode: "ranked" | "practice"; startDate?: IsoDate; showReal?: boolean },
+  input: { mode: "ranked" | "practice"; dataset: Dataset; startDate?: IsoDate; showReal?: boolean },
 ): Promise<string> {
-  const range = await selectableRange();
+  const { dataset } = input;
+  if (dataset === "real" && !(await isInsider(userId))) {
+    throw new GameError(403, "実データで遊べるのは招待された人だけです");
+  }
+  if (dataset === "synthetic" && (input.startDate || input.showReal)) {
+    throw new GameError(400, "架空データでは期間の指定や実価格の表示はできません");
+  }
+  const range = await selectableRange(dataset);
   if (!range) throw new GameError(503, "市場データがまだ取り込まれていません");
   let day0: IsoDate;
   if (input.mode === "practice" && input.startDate) {
@@ -83,6 +92,7 @@ export async function createScenario(
     .from(schema.instruments)
     .where(
       and(
+        eq(schema.instruments.dataset, dataset),
         lte(schema.instruments.firstDate, addDays(first, LISTING_GRACE_DAYS)),
         gte(schema.instruments.lastDate, last),
       ),
@@ -100,7 +110,7 @@ export async function createScenario(
       and date <= ${day0} and date > ${addDays(day0, -45)}
     order by instrument_id, date desc
   `);
-  const fx = await loadFx([day0]);
+  const fx = await loadFx([day0], dataset);
   const closeBy = new Map(closes.map((r) => [Number(r.instrument_id), Number(r.close)]));
   const members = eligible.flatMap((e) => {
     const c = closeBy.get(e.id);
@@ -116,6 +126,7 @@ export async function createScenario(
         .where(
           and(
             eq(schema.scenarios.userId, userId),
+            eq(schema.scenarios.dataset, dataset),
             eq(schema.scenarios.mode, "ranked"),
             eq(schema.scenarios.status, "active"),
           ),
@@ -127,6 +138,7 @@ export async function createScenario(
       .values({
         userId,
         mode: input.mode,
+        dataset,
         showReal: input.mode === "practice" && !!input.showReal,
         startDate: day0,
         cash: INITIAL_CASH,
@@ -147,8 +159,23 @@ async function lockScenario(tx: Tx, scenarioId: string, userId: string): Promise
     .from(schema.scenarios)
     .where(and(eq(schema.scenarios.id, scenarioId), eq(schema.scenarios.userId, userId)))
     .for("update");
-  if (!s) throw new GameError(404, "シナリオが見つかりません");
+  return checkAccess(s, userId);
+}
+
+/** 実データのシナリオは、持ち主が今も身内のときだけ触れる（取り消された人には存在しないものとして扱う） */
+async function checkAccess(s: ScenarioRow | undefined, userId: string): Promise<ScenarioRow> {
+  if (!s || (s.dataset === "real" && !(await isInsider(userId)))) {
+    throw new GameError(404, "シナリオが見つかりません");
+  }
   return s;
+}
+
+export async function isInsider(userId: string): Promise<boolean> {
+  const [u] = await db
+    .select({ isInsider: schema.users.isInsider })
+    .from(schema.users)
+    .where(eq(schema.users.id, userId));
+  return !!u?.isInsider;
 }
 
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
@@ -159,8 +186,7 @@ export async function getScenarioRow(scenarioId: string, userId: string): Promis
     .select()
     .from(schema.scenarios)
     .where(and(eq(schema.scenarios.id, scenarioId), eq(schema.scenarios.userId, userId)));
-  if (!s) throw new GameError(404, "シナリオが見つかりません");
-  return s;
+  return checkAccess(s, userId);
 }
 
 async function loadState(tx: Tx, s: ScenarioRow): Promise<PortfolioState> {
@@ -257,7 +283,7 @@ export async function advanceScenario(scenarioId: string, userId: string, steps:
     const toDay = Math.min(s.currentDay + steps, SCENARIO_DAYS);
     if (toDay <= s.currentDay) throw new GameError(409, "これ以上進めません");
     const cal = scenarioCalendar(s.startDate);
-    const m = await loadScenarioMarket(s.id, cal);
+    const m = await loadScenarioMarket(s.id, cal, s.dataset);
     let state = await loadState(tx, s);
 
     // 必要なのは保有中と注文中の銘柄だけ
@@ -334,7 +360,7 @@ export async function abandonScenario(scenarioId: string, userId: string) {
   await db.transaction(async (tx) => {
     const s = await lockScenario(tx, scenarioId, userId);
     if (s.status !== "active") throw new GameError(409, "このシナリオは終了しています");
-    const m = await loadScenarioMarket(s.id, scenarioCalendar(s.startDate));
+    const m = await loadScenarioMarket(s.id, scenarioCalendar(s.startDate), s.dataset);
     const state = await loadState(tx, s);
     await finishInTx(tx, s, state, m, "abandoned");
   });
@@ -403,8 +429,12 @@ export async function cancelOrder(scenarioId: string, userId: string, orderId: s
   });
 }
 
-/** ランク戦は終了まで実日付・実価格を出さない。練習モードで表示を選んだ場合と終了後は出す */
-export function isRevealed(s: Pick<ScenarioRow, "mode" | "showReal" | "status">): boolean {
+/**
+ * 実日付・実価格を出してよいか。実データのランク戦は終了まで出さず、練習モードで表示を選んだ場合と終了後は出す。
+ * 架空データには意味のある実日付がないので、終了後も出さない（代わりに架空暦の年を出す）
+ */
+export function isRevealed(s: Pick<ScenarioRow, "mode" | "showReal" | "status" | "dataset">): boolean {
+  if (s.dataset === "synthetic") return false;
   return s.status !== "active" || (s.mode === "practice" && s.showReal);
 }
 

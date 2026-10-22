@@ -1,4 +1,4 @@
-import { PRE_HISTORY_DAYS, SCENARIO_DAYS } from "@/config/game";
+import { PRE_HISTORY_DAYS, SCENARIO_DAYS, SYNTHETIC_EPOCH } from "@/config/game";
 import { nextWeekday, previousWeekday, weekdayCalendar, type IsoDate } from "@/lib/engine/calendar";
 
 /**
@@ -24,4 +24,9 @@ export function calIndex(k: number): number {
 
 export function dateOfDay(cal: readonly IsoDate[], k: number): IsoDate {
   return cal[calIndex(k)];
+}
+
+/** 架空暦の年（起点の年を1年目とする） */
+export function fictionalYear(date: IsoDate): number {
+  return Number(date.slice(0, 4)) - Number(SYNTHETIC_EPOCH.slice(0, 4)) + 1;
 }

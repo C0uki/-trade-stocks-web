@@ -7,7 +7,7 @@ import { ja } from "@/lib/i18n/ja";
 
 type Props = {
   label: string;
-  body: { mode: "ranked" | "practice"; startDate?: string; showReal?: boolean };
+  body: { mode: "ranked" | "practice"; dataset: "real" | "synthetic"; startDate?: string; showReal?: boolean };
   className?: string;
 };
 

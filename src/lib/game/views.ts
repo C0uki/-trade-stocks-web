@@ -8,8 +8,8 @@ import { trailingDividendYield, valuationRatios } from "@/lib/engine/fundamental
 import { indexToJpy } from "@/lib/engine/pricing";
 import { GameError } from "./errors";
 import { costRates, loadScenarioMarket, loadSeries } from "./market";
-import { getScenarioRow, isRevealed } from "./service";
-import { dateOfDay, FIRST_DAY, scenarioCalendar } from "./timeline";
+import { getScenarioRow, isInsider, isRevealed } from "./service";
+import { dateOfDay, fictionalYear, FIRST_DAY, scenarioCalendar } from "./timeline";
 
 /**
  * クライアントに返すデータはここで組み立てる。
@@ -20,7 +20,7 @@ export async function scenarioView(scenarioId: string, userId: string) {
   const s = await getScenarioRow(scenarioId, userId);
   const revealed = isRevealed(s);
   const cal = scenarioCalendar(s.startDate);
-  const m = await loadScenarioMarket(s.id, cal);
+  const m = await loadScenarioMarket(s.id, cal, s.dataset);
   const [pos, openOrders, recent, equity] = await Promise.all([
     db.select().from(schema.positions).where(eq(schema.positions.scenarioId, s.id)),
     db
@@ -64,11 +64,13 @@ export async function scenarioView(scenarioId: string, userId: string) {
   return {
     id: s.id,
     mode: s.mode,
+    dataset: s.dataset,
     status: s.status,
     currentDay: s.currentDay,
     totalDays: SCENARIO_DAYS,
     revealed,
     period: revealed ? { start: dateOfDay(cal, 0), end: dateOfDay(cal, SCENARIO_DAYS) } : null,
+    fictionalPeriod: fictionalPeriod(s, cal),
     currentDate: revealed ? dateOfDay(cal, s.currentDay) : null,
     initialCash: INITIAL_CASH,
     cash: s.cash,
@@ -78,7 +80,7 @@ export async function scenarioView(scenarioId: string, userId: string) {
     result:
       s.status === "active"
         ? null
-        : { finalValue: s.finalValue, benchmarkValue: s.benchmarkValue, score: s.score, finishedAt: s.finishedAt },
+        : { finalValue: s.finalValue, benchmarkValue: s.benchmarkValue, score: s.score },
     instrumentCount: m.instruments.size,
     positions: pos.map((p) => {
       const price = close(p.instrumentId) ?? 0;
@@ -136,7 +138,7 @@ const MARKET_ORDER = ["JP", "US", "EU", "CRYPTO"];
 export async function marketView(scenarioId: string, userId: string) {
   const s = await getScenarioRow(scenarioId, userId);
   const revealed = isRevealed(s);
-  const m = await loadScenarioMarket(s.id, scenarioCalendar(s.startDate));
+  const m = await loadScenarioMarket(s.id, scenarioCalendar(s.startDate), s.dataset);
   const series = await loadSeries(m, [...m.instruments.keys()], s.currentDay - 1, s.currentDay);
   return [...m.instruments.values()]
     .map((inst) => {
@@ -166,7 +168,7 @@ export async function instrumentView(scenarioId: string, userId: string, instrum
   const s = await getScenarioRow(scenarioId, userId);
   const revealed = isRevealed(s);
   const cal = scenarioCalendar(s.startDate);
-  const m = await loadScenarioMarket(s.id, cal);
+  const m = await loadScenarioMarket(s.id, cal, s.dataset);
   const inst = m.instruments.get(instrumentId);
   if (!inst) throw new GameError(404, "銘柄が見つかりません");
   const series = (await loadSeries(m, [instrumentId], FIRST_DAY, s.currentDay)).get(instrumentId)!;
@@ -238,19 +240,33 @@ export async function myScenarios(userId: string) {
     .where(eq(schema.scenarios.userId, userId))
     .orderBy(desc(schema.scenarios.createdAt))
     .limit(50);
-  return rows.map((s) => {
-    const cal = scenarioCalendar(s.startDate);
-    const revealed = isRevealed(s);
-    return {
-      id: s.id,
-      mode: s.mode,
-      status: s.status,
-      currentDay: s.currentDay,
-      score: s.score,
-      finalValue: s.finalValue,
-      createdAt: s.createdAt,
-      period: revealed ? { start: dateOfDay(cal, 0), end: dateOfDay(cal, SCENARIO_DAYS) } : null,
-    };
-  });
+  const insider = await isInsider(userId);
+  return rows
+    .filter((s) => s.dataset === "synthetic" || insider)
+    .map((s) => {
+      const cal = scenarioCalendar(s.startDate);
+      const revealed = isRevealed(s);
+      return {
+        id: s.id,
+        mode: s.mode,
+        dataset: s.dataset,
+        status: s.status,
+        currentDay: s.currentDay,
+        score: s.score,
+        finalValue: s.finalValue,
+        createdAt: s.createdAt,
+        period: revealed ? { start: dateOfDay(cal, 0), end: dateOfDay(cal, SCENARIO_DAYS) } : null,
+        fictionalPeriod: fictionalPeriod(s, cal),
+      };
+    });
+}
+
+/** 架空データの終了後に見せる「架空暦 ○年目〜○年目」 */
+function fictionalPeriod(
+  s: Pick<typeof schema.scenarios.$inferSelect, "dataset" | "status">,
+  cal: readonly string[],
+): { startYear: number; endYear: number } | null {
+  if (s.dataset !== "synthetic" || s.status === "active") return null;
+  return { startYear: fictionalYear(dateOfDay(cal, 0)), endYear: fictionalYear(dateOfDay(cal, SCENARIO_DAYS)) };
 }
 

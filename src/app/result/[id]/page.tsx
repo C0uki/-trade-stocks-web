@@ -27,7 +27,8 @@ export default async function ResultPage({ params }: PageProps<"/result/[id]">) 
     <div className="space-y-4">
       <section className="panel p-6">
         <div className="text-sm text-muted">
-          {view.mode === "ranked" ? ja.scenario.ranked : ja.scenario.practice} · {ja.scenario.status[view.status]}
+          {view.mode === "ranked" ? ja.scenario.ranked : ja.scenario.practice} · {ja.dataset[view.dataset]} ·{" "}
+          {ja.scenario.status[view.status]}
           {view.status === "abandoned" && `（${ja.home.dayN(view.currentDay)}）`}
         </div>
         <h1 className="mt-1 text-2xl font-bold">{ja.result.title}</h1>
@@ -59,8 +60,16 @@ export default async function ResultPage({ params }: PageProps<"/result/[id]">) 
             {ja.result.period}: <strong>{view.period.start}</strong> 〜 <strong>{view.period.end}</strong>
           </p>
         )}
+        {view.fictionalPeriod && (
+          <p className="mt-5 rounded-lg bg-panel-2 p-3 text-sm" data-testid="period">
+            {ja.result.fictionalPeriod}:{" "}
+            <strong>{ja.fictional(view.fictionalPeriod.startYear, view.fictionalPeriod.endYear)}</strong>
+          </p>
+        )}
         <div className="mt-5 flex flex-wrap gap-3">
-          {view.mode === "ranked" && <StartButton label={ja.result.again} body={{ mode: "ranked" }} />}
+          {view.mode === "ranked" && (
+            <StartButton label={ja.result.again} body={{ mode: "ranked", dataset: view.dataset }} />
+          )}
           <Link href="/" className="btn">
             {ja.nav.home}
           </Link>

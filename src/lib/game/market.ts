@@ -2,6 +2,7 @@ import "server-only";
 import { and, asc, eq, gt, inArray, lte } from "drizzle-orm";
 import { costScheduleFor, fxFeeFor } from "@/config/game";
 import { db, schema } from "@/lib/db";
+import type { Dataset } from "@/lib/db/schema";
 import { addDays, alignBars, carryForward, previousWeekday, type AlignedBar, type IsoDate } from "@/lib/engine/calendar";
 import type { CostRates } from "@/lib/engine/costs";
 import type { DayMarket } from "@/lib/engine/engine";
@@ -12,6 +13,7 @@ import { calIndex } from "./timeline";
 export type ScenarioInstrument = Instrument & { basePriceJpy: number };
 
 export type ScenarioMarket = {
+  dataset: Dataset;
   cal: IsoDate[];
   instruments: Map<number, ScenarioInstrument>;
 };
@@ -19,7 +21,7 @@ export type ScenarioMarket = {
 /** 据え置きの元になる足を拾うための遡り日数（長期の売買停止に備えて長め） */
 const LOOKBACK_DAYS = 45;
 
-export async function loadScenarioMarket(scenarioId: string, cal: IsoDate[]): Promise<ScenarioMarket> {
+export async function loadScenarioMarket(scenarioId: string, cal: IsoDate[], dataset: Dataset): Promise<ScenarioMarket> {
   const rows = await db
     .select({
       id: schema.instruments.id,
@@ -34,7 +36,7 @@ export async function loadScenarioMarket(scenarioId: string, cal: IsoDate[]): Pr
     .from(schema.scenarioInstruments)
     .innerJoin(schema.instruments, eq(schema.instruments.id, schema.scenarioInstruments.instrumentId))
     .where(eq(schema.scenarioInstruments.scenarioId, scenarioId));
-  return { cal, instruments: new Map(rows.map((r) => [r.id, r])) };
+  return { dataset, cal, instruments: new Map(rows.map((r) => [r.id, r])) };
 }
 
 export function costRates(inst: Pick<Instrument, "kind" | "market" | "currency">): CostRates {
@@ -43,12 +45,18 @@ export function costRates(inst: Pick<Instrument, "kind" | "market" | "currency">
 }
 
 /** 各日の為替（1通貨単位あたり円）。JPY は 1 */
-export async function loadFx(dates: readonly IsoDate[]): Promise<Record<Currency, (number | null)[]>> {
+export async function loadFx(dates: readonly IsoDate[], dataset: Dataset): Promise<Record<Currency, (number | null)[]>> {
   const from = addDays(dates[0], -LOOKBACK_DAYS);
   const rows = await db
     .select()
     .from(schema.fxRates)
-    .where(and(gt(schema.fxRates.date, from), lte(schema.fxRates.date, dates[dates.length - 1])))
+    .where(
+      and(
+        eq(schema.fxRates.dataset, dataset),
+        gt(schema.fxRates.date, from),
+        lte(schema.fxRates.date, dates[dates.length - 1]),
+      ),
+    )
     .orderBy(asc(schema.fxRates.date));
   const by = (c: string) => rows.filter((r) => r.currency === c).map((r) => ({ date: r.date, value: r.jpyPerUnit }));
   return {
@@ -100,7 +108,7 @@ export async function loadSeries(
           lte(schema.dividends.exDate, last),
         ),
       ),
-    loadFx(dates),
+    loadFx(dates, m.dataset),
   ]);
 
   const rawBy = new Map<number, typeof bars>();
