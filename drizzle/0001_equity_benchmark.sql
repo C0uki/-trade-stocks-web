@@ -1,0 +1,1 @@
+ALTER TABLE "equity_history" ADD COLUMN "benchmark_equity" double precision;

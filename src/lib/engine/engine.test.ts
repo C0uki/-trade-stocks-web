@@ -11,7 +11,7 @@ import {
   type PortfolioState,
 } from "./engine";
 import type { Order } from "./orders";
-import { benchmarkFinalValue, excessReturnScore } from "./score";
+import { excessReturnScore, simulateBenchmark } from "./score";
 
 const RATE = 0.20315;
 const FREE: CostRates = { commission: 0, spread: 0, fxFee: 0 };
@@ -206,9 +206,11 @@ describe("評価とスコア", () => {
 
   it("ベンチマークは均等買い持ち", () => {
     const days = [day([[1, b(100)], [2, b(100)]]), day([[1, b(200)], [2, b(50)]])];
-    const final = benchmarkFinalValue([1, 2], days, 1000, ctx());
+    const { finalValue, equity } = simulateBenchmark([1, 2], days, 1000, ctx());
     // 500円ずつ → 1000 + 250 = 1250、利益250に課税
-    expect(final).toBeCloseTo(1250 - 250 * RATE);
+    expect(finalValue).toBeCloseTo(1250 - 250 * RATE);
+    expect(equity).toEqual([1000, 1250]);
+    expect(simulateBenchmark([1, 2], [], 1000, ctx()).finalValue).toBe(1000);
     expect(excessReturnScore(1500, 1250, 1000)).toBeCloseTo(25);
   });
 });

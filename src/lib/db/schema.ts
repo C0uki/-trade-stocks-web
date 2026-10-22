@@ -283,6 +283,8 @@ export const equityHistory = pgTable(
       .references(() => scenarios.id, { onDelete: "cascade" }),
     day: integer("day").notNull(),
     equity: doublePrecision("equity").notNull(),
+    /** ベンチマークの時価評価（終了時にまとめて書き込む） */
+    benchmarkEquity: doublePrecision("benchmark_equity"),
   },
   (t) => [primaryKey({ columns: [t.scenarioId, t.day] })],
 );
