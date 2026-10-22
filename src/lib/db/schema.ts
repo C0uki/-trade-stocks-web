@@ -7,6 +7,7 @@ import {
   integer,
   pgTable,
   primaryKey,
+  real,
   serial,
   text,
   timestamp,
@@ -115,7 +116,10 @@ export const indexMemberships = pgTable(
   (t) => [primaryKey({ columns: [t.instrumentId, t.indexCode] })],
 );
 
-/** 日足（現地通貨・分割補正済み） */
+/**
+ * 日足（現地通貨・分割補正済み）。行数が数百万になるので、容量を抑えるため値は単精度（有効桁約7桁）で持つ。
+ * 読み出しは常に「銘柄 ID ＋日付の範囲」なので、主キー以外の索引は付けない
+ */
 export const dailyBars = pgTable(
   "daily_bars",
   {
@@ -123,13 +127,13 @@ export const dailyBars = pgTable(
       .notNull()
       .references(() => instruments.id, { onDelete: "cascade" }),
     date: date("date").notNull(),
-    open: doublePrecision("open").notNull(),
-    high: doublePrecision("high").notNull(),
-    low: doublePrecision("low").notNull(),
-    close: doublePrecision("close").notNull(),
-    volume: doublePrecision("volume").notNull(),
+    open: real("open").notNull(),
+    high: real("high").notNull(),
+    low: real("low").notNull(),
+    close: real("close").notNull(),
+    volume: real("volume").notNull(),
   },
-  (t) => [primaryKey({ columns: [t.instrumentId, t.date] }), index("daily_bars_date_idx").on(t.date)],
+  (t) => [primaryKey({ columns: [t.instrumentId, t.date] })],
 );
 
 /** 1通貨単位あたりの円 */
