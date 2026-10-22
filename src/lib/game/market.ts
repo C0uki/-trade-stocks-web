@@ -1,0 +1,146 @@
+import "server-only";
+import { and, asc, eq, gt, inArray, lte } from "drizzle-orm";
+import { costScheduleFor, fxFeeFor } from "@/config/game";
+import { db, schema } from "@/lib/db";
+import { addDays, alignBars, carryForward, previousWeekday, type AlignedBar, type IsoDate } from "@/lib/engine/calendar";
+import type { CostRates } from "@/lib/engine/costs";
+import type { DayMarket } from "@/lib/engine/engine";
+import type { Currency, Instrument } from "@/lib/engine/instruments";
+import { localAmountToIndex, toIndex, toJpy } from "@/lib/engine/pricing";
+import { calIndex } from "./timeline";
+
+export type ScenarioInstrument = Instrument & { basePriceJpy: number };
+
+export type ScenarioMarket = {
+  cal: IsoDate[];
+  instruments: Map<number, ScenarioInstrument>;
+};
+
+/** 据え置きの元になる足を拾うための遡り日数（長期の売買停止に備えて長め） */
+const LOOKBACK_DAYS = 45;
+
+export async function loadScenarioMarket(scenarioId: string, cal: IsoDate[]): Promise<ScenarioMarket> {
+  const rows = await db
+    .select({
+      id: schema.instruments.id,
+      symbol: schema.instruments.symbol,
+      name: schema.instruments.name,
+      kind: schema.instruments.kind,
+      market: schema.instruments.market,
+      currency: schema.instruments.currency,
+      sector: schema.instruments.sector,
+      basePriceJpy: schema.scenarioInstruments.basePriceJpy,
+    })
+    .from(schema.scenarioInstruments)
+    .innerJoin(schema.instruments, eq(schema.instruments.id, schema.scenarioInstruments.instrumentId))
+    .where(eq(schema.scenarioInstruments.scenarioId, scenarioId));
+  return { cal, instruments: new Map(rows.map((r) => [r.id, r])) };
+}
+
+export function costRates(inst: Pick<Instrument, "kind" | "market" | "currency">): CostRates {
+  const c = costScheduleFor(inst.kind, inst.market);
+  return { commission: c.commission, spread: c.spread, fxFee: fxFeeFor(inst.kind, inst.currency) };
+}
+
+/** 各日の為替（1通貨単位あたり円）。JPY は 1 */
+export async function loadFx(dates: readonly IsoDate[]): Promise<Record<Currency, (number | null)[]>> {
+  const from = addDays(dates[0], -LOOKBACK_DAYS);
+  const rows = await db
+    .select()
+    .from(schema.fxRates)
+    .where(and(gt(schema.fxRates.date, from), lte(schema.fxRates.date, dates[dates.length - 1])))
+    .orderBy(asc(schema.fxRates.date));
+  const by = (c: string) => rows.filter((r) => r.currency === c).map((r) => ({ date: r.date, value: r.jpyPerUnit }));
+  return {
+    JPY: dates.map(() => 1),
+    USD: carryForward(by("USD"), dates),
+    EUR: carryForward(by("EUR"), dates),
+  };
+}
+
+export type IndexSeries = {
+  /** 指数換算の足。データがない日は null */
+  bars: (AlignedBar | null)[];
+  /** 各日の配当（指数1口あたり） */
+  dividends: number[];
+  /** 現地通貨の終値（財務指標・実価格表示用） */
+  localClose: (number | null)[];
+};
+
+/** k=fromK..toK の指数系列を銘柄ごとに作る */
+export async function loadSeries(
+  m: ScenarioMarket,
+  ids: readonly number[],
+  fromK: number,
+  toK: number,
+): Promise<Map<number, IndexSeries>> {
+  const out = new Map<number, IndexSeries>();
+  if (ids.length === 0 || toK < fromK) return out;
+  const dates = m.cal.slice(calIndex(fromK), calIndex(toK) + 1);
+  const last = dates[dates.length - 1];
+  const [bars, divs, fx] = await Promise.all([
+    db
+      .select()
+      .from(schema.dailyBars)
+      .where(
+        and(
+          inArray(schema.dailyBars.instrumentId, [...ids]),
+          gt(schema.dailyBars.date, addDays(dates[0], -LOOKBACK_DAYS)),
+          lte(schema.dailyBars.date, last),
+        ),
+      )
+      .orderBy(asc(schema.dailyBars.instrumentId), asc(schema.dailyBars.date)),
+    db
+      .select()
+      .from(schema.dividends)
+      .where(
+        and(
+          inArray(schema.dividends.instrumentId, [...ids]),
+          gt(schema.dividends.exDate, previousWeekday(dates[0])),
+          lte(schema.dividends.exDate, last),
+        ),
+      ),
+    loadFx(dates),
+  ]);
+
+  const rawBy = new Map<number, typeof bars>();
+  for (const b of bars) {
+    let arr = rawBy.get(b.instrumentId);
+    if (!arr) rawBy.set(b.instrumentId, (arr = []));
+    arr.push(b);
+  }
+
+  for (const id of ids) {
+    const inst = m.instruments.get(id);
+    if (!inst) continue;
+    const aligned = alignBars(rawBy.get(id) ?? [], dates);
+    const rates = fx[inst.currency];
+    const series: IndexSeries = { bars: [], dividends: dates.map(() => 0), localClose: [] };
+    aligned.forEach((bar, i) => {
+      const r = rates[i];
+      series.localClose.push(bar ? bar.close : null);
+      series.bars.push(bar && r ? toIndex(toJpy(bar, r), inst.basePriceJpy) : null);
+    });
+    for (const d of divs) {
+      if (d.instrumentId !== id) continue;
+      // 権利落ち日 ex は (前の平日, d] に入る日に割り当てる（土日・休場日の配当も次の営業日へ）
+      const i = dates.findIndex((day) => d.exDate <= day);
+      const r = i >= 0 ? rates[i] : null;
+      if (i >= 0 && r) series.dividends[i] += localAmountToIndex(d.amount, r, inst.basePriceJpy);
+    }
+    out.set(id, series);
+  }
+  return out;
+}
+
+/** エンジンに渡す日ごとの市場データ（k=fromK..toK） */
+export function toDayMarkets(series: Map<number, IndexSeries>, length: number): DayMarket[] {
+  const days: DayMarket[] = Array.from({ length }, () => new Map());
+  for (const [id, s] of series) {
+    for (let i = 0; i < length; i++) {
+      const bar = s.bars[i];
+      if (bar) days[i].set(id, { bar, dividend: s.dividends[i] });
+    }
+  }
+  return days;
+}
