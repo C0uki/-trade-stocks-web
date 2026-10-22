@@ -1,0 +1,58 @@
+/** GICS セクターと日経225の業種を日本語の表示名にそろえる */
+const MAP: Record<string, string> = {
+  // GICS（S&P500・EURO STOXX 50）
+  "Communication Services": "通信サービス",
+  Communication: "通信サービス",
+  "Consumer Discretionary": "一般消費財",
+  "Consumer Staples": "生活必需品",
+  Energy: "エネルギー",
+  Financials: "金融",
+  "Health Care": "ヘルスケア",
+  Healthcare: "ヘルスケア",
+  Industrials: "資本財",
+  "Information Technology": "情報技術",
+  Technology: "情報技術",
+  Materials: "素材",
+  "Real Estate": "不動産",
+  Utilities: "公益",
+  // 日経225
+  "Air transport": "空運",
+  Automotive: "自動車",
+  Banking: "銀行",
+  Chemicals: "化学",
+  Communications: "通信",
+  Construction: "建設",
+  "Electric machinery": "電気機器",
+  "Electric power": "電力",
+  Fishery: "水産",
+  Foods: "食品",
+  Gas: "ガス",
+  "Glass & ceramics": "窯業",
+  Insurance: "保険",
+  "Land transport": "陸運",
+  Machinery: "機械",
+  "Marine transport": "海運",
+  Mining: "鉱業",
+  "Nonferrous metals": "非鉄金属",
+  "Other financial services": "その他金融",
+  "Other manufacturing": "その他製造",
+  Petroleum: "石油",
+  Pharmaceuticals: "医薬品",
+  "Precision instruments": "精密機器",
+  "Pulp & paper": "パルプ・紙",
+  "Railway/bus": "鉄道・バス",
+  "Real estate": "不動産",
+  Retail: "小売",
+  Rubber: "ゴム",
+  Securities: "証券",
+  Services: "サービス",
+  Shipbuilding: "造船",
+  Steel: "鉄鋼",
+  "Textiles & apparel": "繊維",
+  "Trading companies": "商社",
+};
+
+export function sectorJa(raw: string): string | null {
+  if (!raw) return null;
+  return MAP[raw] ?? raw;
+}

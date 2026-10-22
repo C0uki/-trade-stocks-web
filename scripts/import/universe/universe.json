@@ -1,0 +1,9470 @@
+[
+ {
+  "providerSymbol": "9202.T",
+  "symbol": "9202",
+  "name": "ANA Holdings Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "空運",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "9201.T",
+  "symbol": "9201",
+  "name": "Japan Airlines Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "空運",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "543A.T",
+  "symbol": "543A",
+  "name": "Archion Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "自動車",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "7267.T",
+  "symbol": "7267",
+  "name": "Honda Motor Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "自動車",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "7202.T",
+  "symbol": "7202",
+  "name": "Isuzu Motors Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "自動車",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "7261.T",
+  "symbol": "7261",
+  "name": "Mazda Motor Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "自動車",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "7211.T",
+  "symbol": "7211",
+  "name": "Mitsubishi Motors Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "自動車",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "7201.T",
+  "symbol": "7201",
+  "name": "Nissan Motor Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "自動車",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "7270.T",
+  "symbol": "7270",
+  "name": "Subaru Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "自動車",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "7269.T",
+  "symbol": "7269",
+  "name": "Suzuki Motor Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "自動車",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "7203.T",
+  "symbol": "7203",
+  "name": "Toyota Motor Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "自動車",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "7272.T",
+  "symbol": "7272",
+  "name": "Yamaha Motor Company, Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "自動車",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8304.T",
+  "symbol": "8304",
+  "name": "Aozora Bank, Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "銀行",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8331.T",
+  "symbol": "8331",
+  "name": "The Chiba Bank, Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "銀行",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8354.T",
+  "symbol": "8354",
+  "name": "Fukuoka Financial Group, Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "銀行",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8306.T",
+  "symbol": "8306",
+  "name": "Mitsubishi UFJ Financial Group, Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "銀行",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8411.T",
+  "symbol": "8411",
+  "name": "Mizuho Financial Group, Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "銀行",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8308.T",
+  "symbol": "8308",
+  "name": "Resona Holdings, Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "銀行",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "5831.T",
+  "symbol": "5831",
+  "name": "Shizuoka Financial Group",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "銀行",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8316.T",
+  "symbol": "8316",
+  "name": "Sumitomo Mitsui Financial Group, Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "銀行",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8309.T",
+  "symbol": "8309",
+  "name": "Sumitomo Mitsui Trust Holdings, Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "銀行",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "7186.T",
+  "symbol": "7186",
+  "name": "Yokohama Financial Group",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "銀行",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "3407.T",
+  "symbol": "3407",
+  "name": "Asahi Kasei Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "化学",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4061.T",
+  "symbol": "4061",
+  "name": "Denka Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "化学",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4901.T",
+  "symbol": "4901",
+  "name": "Fujifilm Holdings Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "化学",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4452.T",
+  "symbol": "4452",
+  "name": "Kao Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "化学",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "3405.T",
+  "symbol": "3405",
+  "name": "Kuraray Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "化学",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4188.T",
+  "symbol": "4188",
+  "name": "Mitsubishi Chemical Holdings Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "化学",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4183.T",
+  "symbol": "4183",
+  "name": "Mitsui Chemicals, Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "化学",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4021.T",
+  "symbol": "4021",
+  "name": "Nissan Chemical Industries, Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "化学",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6988.T",
+  "symbol": "6988",
+  "name": "Nitto Denko",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "化学",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4004.T",
+  "symbol": "4004",
+  "name": "Resonac Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "化学",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4063.T",
+  "symbol": "4063",
+  "name": "Shin-Etsu Chemical Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "化学",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4911.T",
+  "symbol": "4911",
+  "name": "Shiseido Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "化学",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4005.T",
+  "symbol": "4005",
+  "name": "Sumitomo Chemical Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "化学",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4043.T",
+  "symbol": "4043",
+  "name": "Tokuyama Corporation",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "化学",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4042.T",
+  "symbol": "4042",
+  "name": "Tosoh Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "化学",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4208.T",
+  "symbol": "4208",
+  "name": "Ube Industries, Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "化学",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "9433.T",
+  "symbol": "9433",
+  "name": "KDDI Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "通信",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "9432.T",
+  "symbol": "9432",
+  "name": "Nippon Telegraph & Telephone Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "通信",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "9434.T",
+  "symbol": "9434",
+  "name": "SoftBank Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "通信",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "9984.T",
+  "symbol": "9984",
+  "name": "SoftBank Group Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "通信",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "1721.T",
+  "symbol": "1721",
+  "name": "Comsys Holdings Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "建設",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "1925.T",
+  "symbol": "1925",
+  "name": "Daiwa House Industry Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "建設",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "1808.T",
+  "symbol": "1808",
+  "name": "Haseko Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "建設",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "1963.T",
+  "symbol": "1963",
+  "name": "JGC Corporation",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "建設",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "1812.T",
+  "symbol": "1812",
+  "name": "Kajima Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "建設",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "1802.T",
+  "symbol": "1802",
+  "name": "Obayashi Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "建設",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "1928.T",
+  "symbol": "1928",
+  "name": "Sekisui House, Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "建設",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "1803.T",
+  "symbol": "1803",
+  "name": "Shimizu Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "建設",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "1801.T",
+  "symbol": "1801",
+  "name": "Taisei Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "建設",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6857.T",
+  "symbol": "6857",
+  "name": "Advantest Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6770.T",
+  "symbol": "6770",
+  "name": "Alps Alpine Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "7751.T",
+  "symbol": "7751",
+  "name": "Canon Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6902.T",
+  "symbol": "6902",
+  "name": "Denso Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6954.T",
+  "symbol": "6954",
+  "name": "FANUC Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6504.T",
+  "symbol": "6504",
+  "name": "Fuji Electric Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6702.T",
+  "symbol": "6702",
+  "name": "Fujitsu Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6501.T",
+  "symbol": "6501",
+  "name": "Hitachi, Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6861.T",
+  "symbol": "6861",
+  "name": "Keyence Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "285A.T",
+  "symbol": "285A",
+  "name": "Kioxia Holdings Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6971.T",
+  "symbol": "6971",
+  "name": "Kyocera Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6920.T",
+  "symbol": "6920",
+  "name": "Lasertec",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6479.T",
+  "symbol": "6479",
+  "name": "MinebeaMitsumi, Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6503.T",
+  "symbol": "6503",
+  "name": "Mitsubishi Electric Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6981.T",
+  "symbol": "6981",
+  "name": "Murata Manufacturing Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6701.T",
+  "symbol": "6701",
+  "name": "NEC Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6594.T",
+  "symbol": "6594",
+  "name": "Nidec",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6645.T",
+  "symbol": "6645",
+  "name": "Omron Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6752.T",
+  "symbol": "6752",
+  "name": "Panasonic Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6723.T",
+  "symbol": "6723",
+  "name": "Renesas Electronics",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "7752.T",
+  "symbol": "7752",
+  "name": "Ricoh Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6963.T",
+  "symbol": "6963",
+  "name": "Rohm Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "7735.T",
+  "symbol": "7735",
+  "name": "SCREEN Holdings",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6724.T",
+  "symbol": "6724",
+  "name": "Seiko Epson Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6753.T",
+  "symbol": "6753",
+  "name": "Sharp Corporation",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6758.T",
+  "symbol": "6758",
+  "name": "Sony Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6526.T",
+  "symbol": "6526",
+  "name": "Socionext Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6976.T",
+  "symbol": "6976",
+  "name": "Taiyo Yuden Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6762.T",
+  "symbol": "6762",
+  "name": "TDK Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8035.T",
+  "symbol": "8035",
+  "name": "Tokyo Electron Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6506.T",
+  "symbol": "6506",
+  "name": "Yaskawa Electric Corporation, Limited",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6841.T",
+  "symbol": "6841",
+  "name": "Yokogawa Electric Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電気機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "9502.T",
+  "symbol": "9502",
+  "name": "Chubu Electric Power Co., Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電力",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "9503.T",
+  "symbol": "9503",
+  "name": "The Kansai Electric Power Co., Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電力",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "9501.T",
+  "symbol": "9501",
+  "name": "Tokyo Electric Power Company Holdings, Incorporated",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "電力",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "1332.T",
+  "symbol": "1332",
+  "name": "Nissui Corporation",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "水産",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "2802.T",
+  "symbol": "2802",
+  "name": "Ajinomoto Co., Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "食品",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "2502.T",
+  "symbol": "2502",
+  "name": "Asahi Group Holdings, Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "食品",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "2914.T",
+  "symbol": "2914",
+  "name": "Japan Tobacco Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "食品",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "2801.T",
+  "symbol": "2801",
+  "name": "Kikkoman Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "食品",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "2503.T",
+  "symbol": "2503",
+  "name": "Kirin Holdings Co, Ltd",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "食品",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "2269.T",
+  "symbol": "2269",
+  "name": "Meiji Holdings Company, Limited",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "食品",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "2282.T",
+  "symbol": "2282",
+  "name": "NH Foods Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "食品",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "2871.T",
+  "symbol": "2871",
+  "name": "Nichirei Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "食品",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "2002.T",
+  "symbol": "2002",
+  "name": "Nisshin Seifun Group Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "食品",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "2501.T",
+  "symbol": "2501",
+  "name": "Sapporo Holdings Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "食品",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "9532.T",
+  "symbol": "9532",
+  "name": "Osaka Gas Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "ガス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "9531.T",
+  "symbol": "9531",
+  "name": "Tokyo Gas Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "ガス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "5201.T",
+  "symbol": "5201",
+  "name": "AGC Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "窯業",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "5333.T",
+  "symbol": "5333",
+  "name": "NGK Insulators, Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "窯業",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "5214.T",
+  "symbol": "5214",
+  "name": "Nippon Electric Glass Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "窯業",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "5233.T",
+  "symbol": "5233",
+  "name": "Taiheiyo Cement Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "窯業",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "5301.T",
+  "symbol": "5301",
+  "name": "Tokai Carbon Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "窯業",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "5332.T",
+  "symbol": "5332",
+  "name": "Toto Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "窯業",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8750.T",
+  "symbol": "8750",
+  "name": "Dai-ichi Life Insurance Company, Limited",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "保険",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8725.T",
+  "symbol": "8725",
+  "name": "MS&AD Insurance Group, Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "保険",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8630.T",
+  "symbol": "8630",
+  "name": "Sompo Holdings, Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "保険",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8795.T",
+  "symbol": "8795",
+  "name": "T&D Holdings, Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "保険",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8766.T",
+  "symbol": "8766",
+  "name": "Tokio Marine Holdings, Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "保険",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "9147.T",
+  "symbol": "9147",
+  "name": "Nippon Express Holdings Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "陸運",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "9064.T",
+  "symbol": "9064",
+  "name": "Yamato Holdings Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "陸運",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6113.T",
+  "symbol": "6113",
+  "name": "Amada Co. Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "機械",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6367.T",
+  "symbol": "6367",
+  "name": "Daikin Industries, Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "機械",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6361.T",
+  "symbol": "6361",
+  "name": "Ebara Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "機械",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6305.T",
+  "symbol": "6305",
+  "name": "Hitachi Construction Machinery Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "機械",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "7004.T",
+  "symbol": "7004",
+  "name": "Kanadevia Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "機械",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "7013.T",
+  "symbol": "7013",
+  "name": "IHI Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "機械",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "5631.T",
+  "symbol": "5631",
+  "name": "The Japan Steel Works, Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "機械",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6473.T",
+  "symbol": "6473",
+  "name": "JTEKT Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "機械",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6301.T",
+  "symbol": "6301",
+  "name": "Komatsu Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "機械",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6326.T",
+  "symbol": "6326",
+  "name": "Kubota Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "機械",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "7011.T",
+  "symbol": "7011",
+  "name": "Mitsubishi Heavy Industries, Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "機械",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6471.T",
+  "symbol": "6471",
+  "name": "NSK Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "機械",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6472.T",
+  "symbol": "6472",
+  "name": "NTN Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "機械",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6103.T",
+  "symbol": "6103",
+  "name": "Okuma Holdings, Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "機械",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6302.T",
+  "symbol": "6302",
+  "name": "Sumitomo Heavy Industries, Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "機械",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6273.T",
+  "symbol": "6273",
+  "name": "SMC Corporation",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "機械",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "9107.T",
+  "symbol": "9107",
+  "name": "Kawasaki Kisen Kaisha, Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "海運",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "9104.T",
+  "symbol": "9104",
+  "name": "Mitsui O.S.K. Lines, Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "海運",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "9101.T",
+  "symbol": "9101",
+  "name": "Nippon Yusen K.K.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "海運",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "1605.T",
+  "symbol": "1605",
+  "name": "Inpex Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "鉱業",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "5714.T",
+  "symbol": "5714",
+  "name": "Dowa Holdings Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "非鉄金属",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "5803.T",
+  "symbol": "5803",
+  "name": "Fujikura Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "非鉄金属",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "5801.T",
+  "symbol": "5801",
+  "name": "The Furukawa Electric Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "非鉄金属",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "5711.T",
+  "symbol": "5711",
+  "name": "Mitsubishi Materials Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "非鉄金属",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "5706.T",
+  "symbol": "5706",
+  "name": "Mitsui Mining & Smelting Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "非鉄金属",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "3436.T",
+  "symbol": "3436",
+  "name": "SUMCO Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "非鉄金属",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "5802.T",
+  "symbol": "5802",
+  "name": "Sumitomo Electric Industries, Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "非鉄金属",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "5713.T",
+  "symbol": "5713",
+  "name": "Sumitomo Metal Mining Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "非鉄金属",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8253.T",
+  "symbol": "8253",
+  "name": "Credit Saison Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "その他金融",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8697.T",
+  "symbol": "8697",
+  "name": "Japan Exchange Group Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "その他金融",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8591.T",
+  "symbol": "8591",
+  "name": "Orix Co.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "その他金融",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "7832.T",
+  "symbol": "7832",
+  "name": "Bandai Namco Holdings, Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "その他製造",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "7912.T",
+  "symbol": "7912",
+  "name": "Dai Nippon Printing Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "その他製造",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "7911.T",
+  "symbol": "7911",
+  "name": "Toppan Printing Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "その他製造",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "7951.T",
+  "symbol": "7951",
+  "name": "Yamaha Corporation",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "その他製造",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "5020.T",
+  "symbol": "5020",
+  "name": "Eneos Holdings",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "石油",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "5019.T",
+  "symbol": "5019",
+  "name": "Idemitsu Kosan Co., Ltd",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "石油",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4503.T",
+  "symbol": "4503",
+  "name": "Astellas Pharma Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "医薬品",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4519.T",
+  "symbol": "4519",
+  "name": "Chugai Pharmaceutical Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "医薬品",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4568.T",
+  "symbol": "4568",
+  "name": "Daiichi Sankyo Company, Limited",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "医薬品",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4523.T",
+  "symbol": "4523",
+  "name": "Eisai Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "医薬品",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4151.T",
+  "symbol": "4151",
+  "name": "Kyowa Hakko Kirin Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "医薬品",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4578.T",
+  "symbol": "4578",
+  "name": "Otsuka Holdings Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "医薬品",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4506.T",
+  "symbol": "4506",
+  "name": "Sumitomo Dainippon Pharma Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "医薬品",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4507.T",
+  "symbol": "4507",
+  "name": "Shionogi & Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "医薬品",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4502.T",
+  "symbol": "4502",
+  "name": "Takeda Pharmaceutical Company Limited",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "医薬品",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6146.T",
+  "symbol": "6146",
+  "name": "Disco Corporation Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "精密機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "7741.T",
+  "symbol": "7741",
+  "name": "Hoya Corporation",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "精密機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4902.T",
+  "symbol": "4902",
+  "name": "Konica Minolta Holdings, Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "精密機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "7731.T",
+  "symbol": "7731",
+  "name": "Nikon Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "精密機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "7733.T",
+  "symbol": "7733",
+  "name": "Olympus Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "精密機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4543.T",
+  "symbol": "4543",
+  "name": "Terumo Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "精密機器",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "3861.T",
+  "symbol": "3861",
+  "name": "Oji Holdings Corporation",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "パルプ・紙",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "9022.T",
+  "symbol": "9022",
+  "name": "Central Japan Railway Company",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "鉄道・バス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "9020.T",
+  "symbol": "9020",
+  "name": "East Japan Railway Company",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "鉄道・バス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "9008.T",
+  "symbol": "9008",
+  "name": "Keio Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "鉄道・バス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "9009.T",
+  "symbol": "9009",
+  "name": "Keisei Electric Railway Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "鉄道・バス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "9007.T",
+  "symbol": "9007",
+  "name": "Odakyu Electric Railway Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "鉄道・バス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "9001.T",
+  "symbol": "9001",
+  "name": "Tobu Railway Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "鉄道・バス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "9005.T",
+  "symbol": "9005",
+  "name": "Tokyu Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "鉄道・バス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "9021.T",
+  "symbol": "9021",
+  "name": "West Japan Railway Company",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "鉄道・バス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8802.T",
+  "symbol": "8802",
+  "name": "Mitsubishi Estate Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "不動産",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8801.T",
+  "symbol": "8801",
+  "name": "Mitsui Fudosan Co., Ltd",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "不動産",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8830.T",
+  "symbol": "8830",
+  "name": "Sumitomo Realty & Development Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "不動産",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8804.T",
+  "symbol": "8804",
+  "name": "Tokyo Tatemono Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "不動産",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "3289.T",
+  "symbol": "3289",
+  "name": "Tokyu Land Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "不動産",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8267.T",
+  "symbol": "8267",
+  "name": "Aeon Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "小売",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "9983.T",
+  "symbol": "9983",
+  "name": "Fast Retailing Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "小売",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "3099.T",
+  "symbol": "3099",
+  "name": "Isetan Mitsukoshi Holdings Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "小売",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "3086.T",
+  "symbol": "3086",
+  "name": "J. Front Retailing Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "小売",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8252.T",
+  "symbol": "8252",
+  "name": "Marui Group Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "小売",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "7453.T",
+  "symbol": "7453",
+  "name": "Muji Co., Ltd",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "小売",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "9843.T",
+  "symbol": "9843",
+  "name": "Nitori Holdings Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "小売",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "7532.T",
+  "symbol": "7532",
+  "name": "Pan Pacific International Holdings Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "小売",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "3382.T",
+  "symbol": "3382",
+  "name": "Seven & I Holdings Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "小売",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8233.T",
+  "symbol": "8233",
+  "name": "Takashimaya Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "小売",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "3092.T",
+  "symbol": "3092",
+  "name": "ZOZO Co., Ltd",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "小売",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "5108.T",
+  "symbol": "5108",
+  "name": "Bridgestone Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "ゴム",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "5101.T",
+  "symbol": "5101",
+  "name": "The Yokohama Rubber Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "ゴム",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8601.T",
+  "symbol": "8601",
+  "name": "Daiwa Securities Group Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "証券",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8604.T",
+  "symbol": "8604",
+  "name": "Nomura Holdings, Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "証券",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6532.T",
+  "symbol": "6532",
+  "name": "Baycurrent Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "サービス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4751.T",
+  "symbol": "4751",
+  "name": "CyberAgent Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "サービス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "2432.T",
+  "symbol": "2432",
+  "name": "Dena Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "サービス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4324.T",
+  "symbol": "4324",
+  "name": "Dentsu Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "サービス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6178.T",
+  "symbol": "6178",
+  "name": "Japan Post Holdings Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "サービス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "9766.T",
+  "symbol": "9766",
+  "name": "Konami Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "サービス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4689.T",
+  "symbol": "4689",
+  "name": "LY Corporation",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "サービス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4385.T",
+  "symbol": "4385",
+  "name": "Mercari Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "サービス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "2413.T",
+  "symbol": "2413",
+  "name": "M3 Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "サービス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "3659.T",
+  "symbol": "3659",
+  "name": "Nexon Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "サービス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "7974.T",
+  "symbol": "7974",
+  "name": "Nintendo Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "サービス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4307.T",
+  "symbol": "4307",
+  "name": "Nomura Research Institute Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "サービス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4661.T",
+  "symbol": "4661",
+  "name": "Oriental Land Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "サービス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4755.T",
+  "symbol": "4755",
+  "name": "Rakuten Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "サービス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "6098.T",
+  "symbol": "6098",
+  "name": "Recruit Holdings Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "サービス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "9735.T",
+  "symbol": "9735",
+  "name": "Secom Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "サービス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "3697.T",
+  "symbol": "3697",
+  "name": "SHIFT Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "サービス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "9602.T",
+  "symbol": "9602",
+  "name": "Toho Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "サービス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "4704.T",
+  "symbol": "4704",
+  "name": "Trend Micro Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "サービス",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "7012.T",
+  "symbol": "7012",
+  "name": "Kawasaki Heavy Industries, Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "造船",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "5411.T",
+  "symbol": "5411",
+  "name": "JFE Holdings, Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "鉄鋼",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "5406.T",
+  "symbol": "5406",
+  "name": "Kobe Steel, Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "鉄鋼",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "5401.T",
+  "symbol": "5401",
+  "name": "Nippon Steel Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "鉄鋼",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "3401.T",
+  "symbol": "3401",
+  "name": "Teijin Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "繊維",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "3402.T",
+  "symbol": "3402",
+  "name": "Toray Industries, Inc.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "繊維",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8001.T",
+  "symbol": "8001",
+  "name": "Itochu Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "商社",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8002.T",
+  "symbol": "8002",
+  "name": "Marubeni Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "商社",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8058.T",
+  "symbol": "8058",
+  "name": "Mitsubishi Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "商社",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8031.T",
+  "symbol": "8031",
+  "name": "Mitsui & Co., Ltd.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "商社",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "2768.T",
+  "symbol": "2768",
+  "name": "Sojitz Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "商社",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8053.T",
+  "symbol": "8053",
+  "name": "Sumitomo Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "商社",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "8015.T",
+  "symbol": "8015",
+  "name": "Toyota Tsusho Corp.",
+  "kind": "stock",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "商社",
+  "indexes": [
+   "NIKKEI225"
+  ]
+ },
+ {
+  "providerSymbol": "MMM",
+  "symbol": "MMM",
+  "name": "3M",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "AOS",
+  "symbol": "AOS",
+  "name": "A. O. Smith",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ABT",
+  "symbol": "ABT",
+  "name": "Abbott Laboratories",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ABBV",
+  "symbol": "ABBV",
+  "name": "AbbVie",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ACN",
+  "symbol": "ACN",
+  "name": "Accenture",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ADBE",
+  "symbol": "ADBE",
+  "name": "Adobe Inc.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "AMD",
+  "symbol": "AMD",
+  "name": "Advanced Micro Devices",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "AES",
+  "symbol": "AES",
+  "name": "AES Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "AFL",
+  "symbol": "AFL",
+  "name": "Aflac",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "A",
+  "symbol": "A",
+  "name": "Agilent Technologies",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "APD",
+  "symbol": "APD",
+  "name": "Air Products",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "素材",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ABNB",
+  "symbol": "ABNB",
+  "name": "Airbnb",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "AKAM",
+  "symbol": "AKAM",
+  "name": "Akamai Technologies",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ALB",
+  "symbol": "ALB",
+  "name": "Albemarle Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "素材",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ARE",
+  "symbol": "ARE",
+  "name": "Alexandria Real Estate Equities",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ALGN",
+  "symbol": "ALGN",
+  "name": "Align Technology",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ALLE",
+  "symbol": "ALLE",
+  "name": "Allegion",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "LNT",
+  "symbol": "LNT",
+  "name": "Alliant Energy",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ALL",
+  "symbol": "ALL",
+  "name": "Allstate",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "GOOGL",
+  "symbol": "GOOGL",
+  "name": "Alphabet Inc. (Class A)",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "通信サービス",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "GOOG",
+  "symbol": "GOOG",
+  "name": "Alphabet Inc. (Class C)",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "通信サービス",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MO",
+  "symbol": "MO",
+  "name": "Altria",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "AMZN",
+  "symbol": "AMZN",
+  "name": "Amazon",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "AMCR",
+  "symbol": "AMCR",
+  "name": "Amcor",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "素材",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "AEE",
+  "symbol": "AEE",
+  "name": "Ameren",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "AEP",
+  "symbol": "AEP",
+  "name": "American Electric Power",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "AXP",
+  "symbol": "AXP",
+  "name": "American Express",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "AIG",
+  "symbol": "AIG",
+  "name": "American International Group",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "AMT",
+  "symbol": "AMT",
+  "name": "American Tower",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "AWK",
+  "symbol": "AWK",
+  "name": "American Water Works",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "AMP",
+  "symbol": "AMP",
+  "name": "Ameriprise Financial",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "AME",
+  "symbol": "AME",
+  "name": "Ametek",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "AMGN",
+  "symbol": "AMGN",
+  "name": "Amgen",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "APH",
+  "symbol": "APH",
+  "name": "Amphenol",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ADI",
+  "symbol": "ADI",
+  "name": "Analog Devices",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "AON",
+  "symbol": "AON",
+  "name": "Aon plc",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "APA",
+  "symbol": "APA",
+  "name": "APA Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "エネルギー",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "APO",
+  "symbol": "APO",
+  "name": "Apollo Global Management",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "AAPL",
+  "symbol": "AAPL",
+  "name": "Apple Inc.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "AMAT",
+  "symbol": "AMAT",
+  "name": "Applied Materials",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "APP",
+  "symbol": "APP",
+  "name": "AppLovin",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "通信サービス",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "APTV",
+  "symbol": "APTV",
+  "name": "Aptiv",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ACGL",
+  "symbol": "ACGL",
+  "name": "Arch Capital Group",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ADM",
+  "symbol": "ADM",
+  "name": "Archer Daniels Midland",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ARES",
+  "symbol": "ARES",
+  "name": "Ares Management",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ANET",
+  "symbol": "ANET",
+  "name": "Arista Networks",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "AJG",
+  "symbol": "AJG",
+  "name": "Arthur J. Gallagher & Co.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "AIZ",
+  "symbol": "AIZ",
+  "name": "Assurant",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "T",
+  "symbol": "T",
+  "name": "AT&T",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "通信サービス",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ATO",
+  "symbol": "ATO",
+  "name": "Atmos Energy",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ADSK",
+  "symbol": "ADSK",
+  "name": "Autodesk",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ADP",
+  "symbol": "ADP",
+  "name": "Automatic Data Processing",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "AZO",
+  "symbol": "AZO",
+  "name": "AutoZone",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "AVY",
+  "symbol": "AVY",
+  "name": "Avery Dennison",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "素材",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "AXON",
+  "symbol": "AXON",
+  "name": "Axon Enterprise",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "BKR",
+  "symbol": "BKR",
+  "name": "Baker Hughes",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "エネルギー",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "BALL",
+  "symbol": "BALL",
+  "name": "Ball Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "素材",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "BAC",
+  "symbol": "BAC",
+  "name": "Bank of America",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "BAX",
+  "symbol": "BAX",
+  "name": "Baxter International",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "BDX",
+  "symbol": "BDX",
+  "name": "Becton Dickinson",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "BRK-B",
+  "symbol": "BRK.B",
+  "name": "Berkshire Hathaway",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "BBY",
+  "symbol": "BBY",
+  "name": "Best Buy",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "TECH",
+  "symbol": "TECH",
+  "name": "Bio-Techne",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "BIIB",
+  "symbol": "BIIB",
+  "name": "Biogen",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "BLK",
+  "symbol": "BLK",
+  "name": "BlackRock",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "BX",
+  "symbol": "BX",
+  "name": "Blackstone Inc.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "XYZ",
+  "symbol": "XYZ",
+  "name": "Block, Inc.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "BE",
+  "symbol": "BE",
+  "name": "Bloom Energy",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "BNY",
+  "symbol": "BNY",
+  "name": "BNY Mellon",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "BA",
+  "symbol": "BA",
+  "name": "Boeing",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "BKNG",
+  "symbol": "BKNG",
+  "name": "Booking Holdings",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "BSX",
+  "symbol": "BSX",
+  "name": "Boston Scientific",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "BMY",
+  "symbol": "BMY",
+  "name": "Bristol Myers Squibb",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "AVGO",
+  "symbol": "AVGO",
+  "name": "Broadcom",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "BR",
+  "symbol": "BR",
+  "name": "Broadridge Financial Solutions",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "BRO",
+  "symbol": "BRO",
+  "name": "Brown & Brown",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "BF-B",
+  "symbol": "BF.B",
+  "name": "Brown–Forman",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "BG",
+  "symbol": "BG",
+  "name": "Bunge Global",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "BXP",
+  "symbol": "BXP",
+  "name": "BXP, Inc.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CHRW",
+  "symbol": "CHRW",
+  "name": "C.H. Robinson",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CDNS",
+  "symbol": "CDNS",
+  "name": "Cadence Design Systems",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CPT",
+  "symbol": "CPT",
+  "name": "Camden Property Trust",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "COF",
+  "symbol": "COF",
+  "name": "Capital One",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CAH",
+  "symbol": "CAH",
+  "name": "Cardinal Health",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CCL",
+  "symbol": "CCL",
+  "name": "Carnival Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CARR",
+  "symbol": "CARR",
+  "name": "Carrier Global",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CVNA",
+  "symbol": "CVNA",
+  "name": "Carvana",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CASY",
+  "symbol": "CASY",
+  "name": "Casey's",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CAT",
+  "symbol": "CAT",
+  "name": "Caterpillar Inc.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CBOE",
+  "symbol": "CBOE",
+  "name": "Cboe Global Markets",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CBRE",
+  "symbol": "CBRE",
+  "name": "CBRE Group",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CDW",
+  "symbol": "CDW",
+  "name": "CDW Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "COR",
+  "symbol": "COR",
+  "name": "Cencora",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CNC",
+  "symbol": "CNC",
+  "name": "Centene Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CNP",
+  "symbol": "CNP",
+  "name": "CenterPoint Energy",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CF",
+  "symbol": "CF",
+  "name": "CF Industries",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "素材",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CRL",
+  "symbol": "CRL",
+  "name": "Charles River Laboratories",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "SCHW",
+  "symbol": "SCHW",
+  "name": "Charles Schwab Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CHTR",
+  "symbol": "CHTR",
+  "name": "Charter Communications",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "通信サービス",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CVX",
+  "symbol": "CVX",
+  "name": "Chevron Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "エネルギー",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CMG",
+  "symbol": "CMG",
+  "name": "Chipotle Mexican Grill",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CB",
+  "symbol": "CB",
+  "name": "Chubb Limited",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CHD",
+  "symbol": "CHD",
+  "name": "Church & Dwight",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CIEN",
+  "symbol": "CIEN",
+  "name": "Ciena",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CI",
+  "symbol": "CI",
+  "name": "Cigna",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CINF",
+  "symbol": "CINF",
+  "name": "Cincinnati Financial",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CTAS",
+  "symbol": "CTAS",
+  "name": "Cintas",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CSCO",
+  "symbol": "CSCO",
+  "name": "Cisco",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "C",
+  "symbol": "C",
+  "name": "Citigroup",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CFG",
+  "symbol": "CFG",
+  "name": "Citizens Financial Group",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CLX",
+  "symbol": "CLX",
+  "name": "Clorox",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CME",
+  "symbol": "CME",
+  "name": "CME Group",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CMS",
+  "symbol": "CMS",
+  "name": "CMS Energy",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "KO",
+  "symbol": "KO",
+  "name": "Coca-Cola Company (The)",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CTSH",
+  "symbol": "CTSH",
+  "name": "Cognizant",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "COHR",
+  "symbol": "COHR",
+  "name": "Coherent Corp.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "COIN",
+  "symbol": "COIN",
+  "name": "Coinbase",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CL",
+  "symbol": "CL",
+  "name": "Colgate-Palmolive",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CMCSA",
+  "symbol": "CMCSA",
+  "name": "Comcast",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "通信サービス",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "FIX",
+  "symbol": "FIX",
+  "name": "Comfort Systems USA",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "COP",
+  "symbol": "COP",
+  "name": "ConocoPhillips",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "エネルギー",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ED",
+  "symbol": "ED",
+  "name": "Consolidated Edison",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "STZ",
+  "symbol": "STZ",
+  "name": "Constellation Brands",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CEG",
+  "symbol": "CEG",
+  "name": "Constellation Energy",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "COO",
+  "symbol": "COO",
+  "name": "Cooper Companies (The)",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CPRT",
+  "symbol": "CPRT",
+  "name": "Copart",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "GLW",
+  "symbol": "GLW",
+  "name": "Corning Inc.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CPAY",
+  "symbol": "CPAY",
+  "name": "Corpay",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CSGP",
+  "symbol": "CSGP",
+  "name": "CoStar Group",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "COST",
+  "symbol": "COST",
+  "name": "Costco",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CRH",
+  "symbol": "CRH",
+  "name": "CRH plc",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "素材",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CRWD",
+  "symbol": "CRWD",
+  "name": "CrowdStrike",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CCI",
+  "symbol": "CCI",
+  "name": "Crown Castle",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CSX",
+  "symbol": "CSX",
+  "name": "CSX Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CMI",
+  "symbol": "CMI",
+  "name": "Cummins",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CVS",
+  "symbol": "CVS",
+  "name": "CVS Health",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "DHR",
+  "symbol": "DHR",
+  "name": "Danaher Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "DRI",
+  "symbol": "DRI",
+  "name": "Darden Restaurants",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "DDOG",
+  "symbol": "DDOG",
+  "name": "Datadog",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "DVA",
+  "symbol": "DVA",
+  "name": "DaVita",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "DECK",
+  "symbol": "DECK",
+  "name": "Deckers Brands",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "DE",
+  "symbol": "DE",
+  "name": "Deere & Company",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "DELL",
+  "symbol": "DELL",
+  "name": "Dell Technologies",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "DAL",
+  "symbol": "DAL",
+  "name": "Delta Air Lines",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "DVN",
+  "symbol": "DVN",
+  "name": "Devon Energy",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "エネルギー",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "DXCM",
+  "symbol": "DXCM",
+  "name": "Dexcom",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "FANG",
+  "symbol": "FANG",
+  "name": "Diamondback Energy",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "エネルギー",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "DLR",
+  "symbol": "DLR",
+  "name": "Digital Realty",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "DG",
+  "symbol": "DG",
+  "name": "Dollar General",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "DLTR",
+  "symbol": "DLTR",
+  "name": "Dollar Tree",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "D",
+  "symbol": "D",
+  "name": "Dominion Energy",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "DPZ",
+  "symbol": "DPZ",
+  "name": "Domino's",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "DASH",
+  "symbol": "DASH",
+  "name": "DoorDash",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "DOV",
+  "symbol": "DOV",
+  "name": "Dover Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "DOW",
+  "symbol": "DOW",
+  "name": "Dow Inc.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "素材",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "DHI",
+  "symbol": "DHI",
+  "name": "D. R. Horton",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "DTE",
+  "symbol": "DTE",
+  "name": "DTE Energy",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "DUK",
+  "symbol": "DUK",
+  "name": "Duke Energy",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "DD",
+  "symbol": "DD",
+  "name": "DuPont",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ETN",
+  "symbol": "ETN",
+  "name": "Eaton Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "EBAY",
+  "symbol": "EBAY",
+  "name": "eBay Inc.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ECHO",
+  "symbol": "ECHO",
+  "name": "EchoStar",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "通信サービス",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ECL",
+  "symbol": "ECL",
+  "name": "Ecolab",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "素材",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "EIX",
+  "symbol": "EIX",
+  "name": "Edison International",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "EW",
+  "symbol": "EW",
+  "name": "Edwards Lifesciences",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ELV",
+  "symbol": "ELV",
+  "name": "Elevance Health",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "EME",
+  "symbol": "EME",
+  "name": "Emcor",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "EMR",
+  "symbol": "EMR",
+  "name": "Emerson Electric",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ETR",
+  "symbol": "ETR",
+  "name": "Entergy",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "EOG",
+  "symbol": "EOG",
+  "name": "EOG Resources",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "エネルギー",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "EQT",
+  "symbol": "EQT",
+  "name": "EQT Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "エネルギー",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "EFX",
+  "symbol": "EFX",
+  "name": "Equifax",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "EQIX",
+  "symbol": "EQIX",
+  "name": "Equinix",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ERIE",
+  "symbol": "ERIE",
+  "name": "Erie Indemnity",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ESS",
+  "symbol": "ESS",
+  "name": "Essex Property Trust",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "EL",
+  "symbol": "EL",
+  "name": "Estée Lauder Companies (The)",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "EG",
+  "symbol": "EG",
+  "name": "Everest Group",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "EVRG",
+  "symbol": "EVRG",
+  "name": "Evergy",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "P",
+  "symbol": "P",
+  "name": "Everpure",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ES",
+  "symbol": "ES",
+  "name": "Eversource Energy",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "EXC",
+  "symbol": "EXC",
+  "name": "Exelon",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "EXE",
+  "symbol": "EXE",
+  "name": "Expand Energy",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "エネルギー",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "EXPE",
+  "symbol": "EXPE",
+  "name": "Expedia Group",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "EXPD",
+  "symbol": "EXPD",
+  "name": "Expeditors International",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "EXR",
+  "symbol": "EXR",
+  "name": "Extra Space Storage",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "XOM",
+  "symbol": "XOM",
+  "name": "ExxonMobil",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "エネルギー",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "FFIV",
+  "symbol": "FFIV",
+  "name": "F5, Inc.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "FDS",
+  "symbol": "FDS",
+  "name": "FactSet",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "FICO",
+  "symbol": "FICO",
+  "name": "Fair Isaac",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "FAST",
+  "symbol": "FAST",
+  "name": "Fastenal",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "FRT",
+  "symbol": "FRT",
+  "name": "Federal Realty Investment Trust",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "FDX",
+  "symbol": "FDX",
+  "name": "FedEx",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "FDXF",
+  "symbol": "FDXF",
+  "name": "FedEx Freight",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "FERG",
+  "symbol": "FERG",
+  "name": "Ferguson Enterprises",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "FIS",
+  "symbol": "FIS",
+  "name": "Fidelity National Information Services",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "FITB",
+  "symbol": "FITB",
+  "name": "Fifth Third Bancorp",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "FSLR",
+  "symbol": "FSLR",
+  "name": "First Solar",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "FE",
+  "symbol": "FE",
+  "name": "FirstEnergy",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "FISV",
+  "symbol": "FISV",
+  "name": "Fiserv",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "FLEX",
+  "symbol": "FLEX",
+  "name": "Flex Ltd.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "F",
+  "symbol": "F",
+  "name": "Ford Motor Company",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "FTNT",
+  "symbol": "FTNT",
+  "name": "Fortinet",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "FTV",
+  "symbol": "FTV",
+  "name": "Fortive",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "FOXA",
+  "symbol": "FOXA",
+  "name": "Fox Corporation (Class A)",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "通信サービス",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "FOX",
+  "symbol": "FOX",
+  "name": "Fox Corporation (Class B)",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "通信サービス",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "BEN",
+  "symbol": "BEN",
+  "name": "Franklin Resources",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "FCX",
+  "symbol": "FCX",
+  "name": "Freeport-McMoRan",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "素材",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "GRMN",
+  "symbol": "GRMN",
+  "name": "Garmin",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "IT",
+  "symbol": "IT",
+  "name": "Gartner",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "GE",
+  "symbol": "GE",
+  "name": "GE Aerospace",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "GEHC",
+  "symbol": "GEHC",
+  "name": "GE HealthCare",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "GEV",
+  "symbol": "GEV",
+  "name": "GE Vernova",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "GEN",
+  "symbol": "GEN",
+  "name": "Gen Digital",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "GNRC",
+  "symbol": "GNRC",
+  "name": "Generac",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "GD",
+  "symbol": "GD",
+  "name": "General Dynamics",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "GIS",
+  "symbol": "GIS",
+  "name": "General Mills",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "GM",
+  "symbol": "GM",
+  "name": "General Motors",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "GPC",
+  "symbol": "GPC",
+  "name": "Genuine Parts Company",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "GILD",
+  "symbol": "GILD",
+  "name": "Gilead Sciences",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "GPN",
+  "symbol": "GPN",
+  "name": "Global Payments",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "GL",
+  "symbol": "GL",
+  "name": "Globe Life",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "GDDY",
+  "symbol": "GDDY",
+  "name": "GoDaddy",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "GS",
+  "symbol": "GS",
+  "name": "Goldman Sachs",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "HAL",
+  "symbol": "HAL",
+  "name": "Halliburton",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "エネルギー",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "HIG",
+  "symbol": "HIG",
+  "name": "Hartford (The)",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "HAS",
+  "symbol": "HAS",
+  "name": "Hasbro",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "HCA",
+  "symbol": "HCA",
+  "name": "HCA Healthcare",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "DOC",
+  "symbol": "DOC",
+  "name": "Healthpeak Properties",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "HSIC",
+  "symbol": "HSIC",
+  "name": "Henry Schein",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "HSY",
+  "symbol": "HSY",
+  "name": "Hershey Company (The)",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "HPE",
+  "symbol": "HPE",
+  "name": "Hewlett Packard Enterprise",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "HLT",
+  "symbol": "HLT",
+  "name": "Hilton Worldwide",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "HD",
+  "symbol": "HD",
+  "name": "Home Depot (The)",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "HONA",
+  "symbol": "HONA",
+  "name": "Honeywell Aerospace",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "HON",
+  "symbol": "HON",
+  "name": "Honeywell Technologies",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "HRL",
+  "symbol": "HRL",
+  "name": "Hormel Foods",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "HST",
+  "symbol": "HST",
+  "name": "Host Hotels & Resorts",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "HWM",
+  "symbol": "HWM",
+  "name": "Howmet Aerospace",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "HPQ",
+  "symbol": "HPQ",
+  "name": "HP Inc.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "HUBB",
+  "symbol": "HUBB",
+  "name": "Hubbell Incorporated",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "HUM",
+  "symbol": "HUM",
+  "name": "Humana",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "HBAN",
+  "symbol": "HBAN",
+  "name": "Huntington Bancshares",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "HII",
+  "symbol": "HII",
+  "name": "Huntington Ingalls Industries",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "IBM",
+  "symbol": "IBM",
+  "name": "IBM",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "IEX",
+  "symbol": "IEX",
+  "name": "IDEX Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "IDXX",
+  "symbol": "IDXX",
+  "name": "Idexx Laboratories",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ITW",
+  "symbol": "ITW",
+  "name": "Illinois Tool Works",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ILMN",
+  "symbol": "ILMN",
+  "name": "Illumina, Inc.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "INCY",
+  "symbol": "INCY",
+  "name": "Incyte",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "IR",
+  "symbol": "IR",
+  "name": "Ingersoll Rand",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "PODD",
+  "symbol": "PODD",
+  "name": "Insulet Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "INTC",
+  "symbol": "INTC",
+  "name": "Intel",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "IBKR",
+  "symbol": "IBKR",
+  "name": "Interactive Brokers",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ICE",
+  "symbol": "ICE",
+  "name": "Intercontinental Exchange",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "IFF",
+  "symbol": "IFF",
+  "name": "International Flavors & Fragrances",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "素材",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "IP",
+  "symbol": "IP",
+  "name": "International Paper",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "素材",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "INTU",
+  "symbol": "INTU",
+  "name": "Intuit",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ISRG",
+  "symbol": "ISRG",
+  "name": "Intuitive Surgical",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "IVZ",
+  "symbol": "IVZ",
+  "name": "Invesco",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "INVH",
+  "symbol": "INVH",
+  "name": "Invitation Homes",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "IQV",
+  "symbol": "IQV",
+  "name": "IQVIA",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "IRM",
+  "symbol": "IRM",
+  "name": "Iron Mountain",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "JBHT",
+  "symbol": "JBHT",
+  "name": "J.B. Hunt",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "JBL",
+  "symbol": "JBL",
+  "name": "Jabil",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "JKHY",
+  "symbol": "JKHY",
+  "name": "Jack Henry & Associates",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "J",
+  "symbol": "J",
+  "name": "Jacobs Solutions",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "JNJ",
+  "symbol": "JNJ",
+  "name": "Johnson & Johnson",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "JCI",
+  "symbol": "JCI",
+  "name": "Johnson Controls",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "JPM",
+  "symbol": "JPM",
+  "name": "JPMorgan Chase",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "KVUE",
+  "symbol": "KVUE",
+  "name": "Kenvue",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "KDP",
+  "symbol": "KDP",
+  "name": "Keurig Dr Pepper",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "KEY",
+  "symbol": "KEY",
+  "name": "KeyCorp",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "KEYS",
+  "symbol": "KEYS",
+  "name": "Keysight Technologies",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "KMB",
+  "symbol": "KMB",
+  "name": "Kimberly-Clark",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "KIM",
+  "symbol": "KIM",
+  "name": "Kimco Realty",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "KMI",
+  "symbol": "KMI",
+  "name": "Kinder Morgan",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "エネルギー",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "KKR",
+  "symbol": "KKR",
+  "name": "KKR & Co.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "KLAC",
+  "symbol": "KLAC",
+  "name": "KLA Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "KHC",
+  "symbol": "KHC",
+  "name": "Kraft Heinz",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "KR",
+  "symbol": "KR",
+  "name": "Kroger",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "LHX",
+  "symbol": "LHX",
+  "name": "L3Harris",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "LH",
+  "symbol": "LH",
+  "name": "Labcorp",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "LRCX",
+  "symbol": "LRCX",
+  "name": "Lam Research",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "LVS",
+  "symbol": "LVS",
+  "name": "Las Vegas Sands",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "LDOS",
+  "symbol": "LDOS",
+  "name": "Leidos",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "LEN",
+  "symbol": "LEN",
+  "name": "Lennar",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "LII",
+  "symbol": "LII",
+  "name": "Lennox International",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "LLY",
+  "symbol": "LLY",
+  "name": "Lilly (Eli)",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "LIN",
+  "symbol": "LIN",
+  "name": "Linde plc",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "素材",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "LYV",
+  "symbol": "LYV",
+  "name": "Live Nation Entertainment",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "通信サービス",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "LMT",
+  "symbol": "LMT",
+  "name": "Lockheed Martin",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "L",
+  "symbol": "L",
+  "name": "Loews Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "LOW",
+  "symbol": "LOW",
+  "name": "Lowe's",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "LULU",
+  "symbol": "LULU",
+  "name": "Lululemon Athletica",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "LITE",
+  "symbol": "LITE",
+  "name": "Lumentum",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "LYB",
+  "symbol": "LYB",
+  "name": "LyondellBasell",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "素材",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MTB",
+  "symbol": "MTB",
+  "name": "M&T Bank",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MPC",
+  "symbol": "MPC",
+  "name": "Marathon Petroleum",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "エネルギー",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MAR",
+  "symbol": "MAR",
+  "name": "Marriott International",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MRSH",
+  "symbol": "MRSH",
+  "name": "Marsh McLennan",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MLM",
+  "symbol": "MLM",
+  "name": "Martin Marietta Materials",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "素材",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MRVL",
+  "symbol": "MRVL",
+  "name": "Marvell Technology",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MAS",
+  "symbol": "MAS",
+  "name": "Masco",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MA",
+  "symbol": "MA",
+  "name": "Mastercard",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MKC",
+  "symbol": "MKC",
+  "name": "McCormick & Company",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MCD",
+  "symbol": "MCD",
+  "name": "McDonald's",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MCK",
+  "symbol": "MCK",
+  "name": "McKesson",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MDT",
+  "symbol": "MDT",
+  "name": "Medtronic",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MRK",
+  "symbol": "MRK",
+  "name": "Merck & Co.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "META",
+  "symbol": "META",
+  "name": "Meta Platforms",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "通信サービス",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MET",
+  "symbol": "MET",
+  "name": "MetLife",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MTD",
+  "symbol": "MTD",
+  "name": "Mettler Toledo",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MGM",
+  "symbol": "MGM",
+  "name": "MGM Resorts",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MCHP",
+  "symbol": "MCHP",
+  "name": "Microchip Technology",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MU",
+  "symbol": "MU",
+  "name": "Micron Technology",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MSFT",
+  "symbol": "MSFT",
+  "name": "Microsoft",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MAA",
+  "symbol": "MAA",
+  "name": "Mid-America Apartment Communities",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MRNA",
+  "symbol": "MRNA",
+  "name": "Moderna",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MDLZ",
+  "symbol": "MDLZ",
+  "name": "Mondelez International",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MPWR",
+  "symbol": "MPWR",
+  "name": "Monolithic Power Systems",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MNST",
+  "symbol": "MNST",
+  "name": "Monster Beverage",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MCO",
+  "symbol": "MCO",
+  "name": "Moody's Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MS",
+  "symbol": "MS",
+  "name": "Morgan Stanley",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MOS",
+  "symbol": "MOS",
+  "name": "Mosaic Company (The)",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "素材",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MSI",
+  "symbol": "MSI",
+  "name": "Motorola Solutions",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "MSCI",
+  "symbol": "MSCI",
+  "name": "MSCI",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "NDAQ",
+  "symbol": "NDAQ",
+  "name": "Nasdaq, Inc.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "NTAP",
+  "symbol": "NTAP",
+  "name": "NetApp",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "NFLX",
+  "symbol": "NFLX",
+  "name": "Netflix",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "通信サービス",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "NEM",
+  "symbol": "NEM",
+  "name": "Newmont",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "素材",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "NWSA",
+  "symbol": "NWSA",
+  "name": "News Corp (Class A)",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "通信サービス",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "NWS",
+  "symbol": "NWS",
+  "name": "News Corp (Class B)",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "通信サービス",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "NEE",
+  "symbol": "NEE",
+  "name": "NextEra Energy",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "NKE",
+  "symbol": "NKE",
+  "name": "Nike, Inc.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "NI",
+  "symbol": "NI",
+  "name": "NiSource",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "NDSN",
+  "symbol": "NDSN",
+  "name": "Nordson Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "NSC",
+  "symbol": "NSC",
+  "name": "Norfolk Southern",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "NTRS",
+  "symbol": "NTRS",
+  "name": "Northern Trust",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "NOC",
+  "symbol": "NOC",
+  "name": "Northrop Grumman",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "NCLH",
+  "symbol": "NCLH",
+  "name": "Norwegian Cruise Line Holdings",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "NRG",
+  "symbol": "NRG",
+  "name": "NRG Energy",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "NUE",
+  "symbol": "NUE",
+  "name": "Nucor",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "素材",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "NVDA",
+  "symbol": "NVDA",
+  "name": "Nvidia",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "NVR",
+  "symbol": "NVR",
+  "name": "NVR, Inc.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "NXPI",
+  "symbol": "NXPI",
+  "name": "NXP Semiconductors",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ORLY",
+  "symbol": "ORLY",
+  "name": "O'Reilly Automotive",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "OXY",
+  "symbol": "OXY",
+  "name": "Occidental Petroleum",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "エネルギー",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ODFL",
+  "symbol": "ODFL",
+  "name": "Old Dominion",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "OMC",
+  "symbol": "OMC",
+  "name": "Omnicom Group",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "通信サービス",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ON",
+  "symbol": "ON",
+  "name": "ON Semiconductor",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "OKE",
+  "symbol": "OKE",
+  "name": "Oneok",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "エネルギー",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ORCL",
+  "symbol": "ORCL",
+  "name": "Oracle Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "OTIS",
+  "symbol": "OTIS",
+  "name": "Otis Worldwide",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "PCAR",
+  "symbol": "PCAR",
+  "name": "Paccar",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "PKG",
+  "symbol": "PKG",
+  "name": "Packaging Corporation of America",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "素材",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "PLTR",
+  "symbol": "PLTR",
+  "name": "Palantir Technologies",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "PANW",
+  "symbol": "PANW",
+  "name": "Palo Alto Networks",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "PH",
+  "symbol": "PH",
+  "name": "Parker Hannifin",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "PAYX",
+  "symbol": "PAYX",
+  "name": "Paychex",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "PYPL",
+  "symbol": "PYPL",
+  "name": "PayPal",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "PNR",
+  "symbol": "PNR",
+  "name": "Pentair",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "PEP",
+  "symbol": "PEP",
+  "name": "PepsiCo",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "PFE",
+  "symbol": "PFE",
+  "name": "Pfizer",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "PCG",
+  "symbol": "PCG",
+  "name": "PG&E Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "PM",
+  "symbol": "PM",
+  "name": "Philip Morris International",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "PSX",
+  "symbol": "PSX",
+  "name": "Phillips 66",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "エネルギー",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "PNW",
+  "symbol": "PNW",
+  "name": "Pinnacle West Capital",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "PNC",
+  "symbol": "PNC",
+  "name": "PNC Financial Services",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "PPG",
+  "symbol": "PPG",
+  "name": "PPG Industries",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "素材",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "PPL",
+  "symbol": "PPL",
+  "name": "PPL Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "PFG",
+  "symbol": "PFG",
+  "name": "Principal Financial Group",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "PG",
+  "symbol": "PG",
+  "name": "Procter & Gamble",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "PGR",
+  "symbol": "PGR",
+  "name": "Progressive Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "PLD",
+  "symbol": "PLD",
+  "name": "Prologis",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "PRU",
+  "symbol": "PRU",
+  "name": "Prudential Financial",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "PEG",
+  "symbol": "PEG",
+  "name": "Public Service Enterprise Group",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "PTC",
+  "symbol": "PTC",
+  "name": "PTC Inc.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "PSA",
+  "symbol": "PSA",
+  "name": "Public Storage",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "PHM",
+  "symbol": "PHM",
+  "name": "PulteGroup",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "PWR",
+  "symbol": "PWR",
+  "name": "Quanta Services",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "QCOM",
+  "symbol": "QCOM",
+  "name": "Qualcomm",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "DGX",
+  "symbol": "DGX",
+  "name": "Quest Diagnostics",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "Q",
+  "symbol": "Q",
+  "name": "Qnity Electronics",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "RL",
+  "symbol": "RL",
+  "name": "Ralph Lauren Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "RJF",
+  "symbol": "RJF",
+  "name": "Raymond James Financial",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "RDDT",
+  "symbol": "RDDT",
+  "name": "Reddit",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "通信サービス",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "RTX",
+  "symbol": "RTX",
+  "name": "RTX Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "O",
+  "symbol": "O",
+  "name": "Realty Income",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "REG",
+  "symbol": "REG",
+  "name": "Regency Centers",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "REGN",
+  "symbol": "REGN",
+  "name": "Regeneron Pharmaceuticals",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "RF",
+  "symbol": "RF",
+  "name": "Regions Financial Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "RSG",
+  "symbol": "RSG",
+  "name": "Republic Services",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "RMD",
+  "symbol": "RMD",
+  "name": "ResMed",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "RVTY",
+  "symbol": "RVTY",
+  "name": "Revvity",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "HOOD",
+  "symbol": "HOOD",
+  "name": "Robinhood Markets",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ROK",
+  "symbol": "ROK",
+  "name": "Rockwell Automation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ROL",
+  "symbol": "ROL",
+  "name": "Rollins, Inc.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ROP",
+  "symbol": "ROP",
+  "name": "Roper Technologies",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ROST",
+  "symbol": "ROST",
+  "name": "Ross Stores",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "RCL",
+  "symbol": "RCL",
+  "name": "Royal Caribbean Group",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "SPGI",
+  "symbol": "SPGI",
+  "name": "S&P Global",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "CRM",
+  "symbol": "CRM",
+  "name": "Salesforce",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "SNDK",
+  "symbol": "SNDK",
+  "name": "Sandisk",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "SBAC",
+  "symbol": "SBAC",
+  "name": "SBA Communications",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "SLB",
+  "symbol": "SLB",
+  "name": "Schlumberger",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "エネルギー",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "STX",
+  "symbol": "STX",
+  "name": "Seagate Technology",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "SRE",
+  "symbol": "SRE",
+  "name": "Sempra",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "NOW",
+  "symbol": "NOW",
+  "name": "ServiceNow",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "SHW",
+  "symbol": "SHW",
+  "name": "Sherwin-Williams",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "素材",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "SPG",
+  "symbol": "SPG",
+  "name": "Simon Property Group",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "SKYD",
+  "symbol": "SKYD",
+  "name": "Skydance Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "通信サービス",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "SWKS",
+  "symbol": "SWKS",
+  "name": "Skyworks Solutions",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "SJM",
+  "symbol": "SJM",
+  "name": "J.M. Smucker Company (The)",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "SW",
+  "symbol": "SW",
+  "name": "Smurfit Westrock",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "素材",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "SNA",
+  "symbol": "SNA",
+  "name": "Snap-on",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "SOLV",
+  "symbol": "SOLV",
+  "name": "Solventum",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "SO",
+  "symbol": "SO",
+  "name": "Southern Company",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "LUV",
+  "symbol": "LUV",
+  "name": "Southwest Airlines",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "SWK",
+  "symbol": "SWK",
+  "name": "Stanley Black & Decker",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "SBUX",
+  "symbol": "SBUX",
+  "name": "Starbucks",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "STT",
+  "symbol": "STT",
+  "name": "State Street Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "STLD",
+  "symbol": "STLD",
+  "name": "Steel Dynamics",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "素材",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "STE",
+  "symbol": "STE",
+  "name": "Steris",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "SYK",
+  "symbol": "SYK",
+  "name": "Stryker Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "SMCI",
+  "symbol": "SMCI",
+  "name": "Supermicro",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "SYF",
+  "symbol": "SYF",
+  "name": "Synchrony Financial",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "SNPS",
+  "symbol": "SNPS",
+  "name": "Synopsys",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "SYY",
+  "symbol": "SYY",
+  "name": "Sysco",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "TMUS",
+  "symbol": "TMUS",
+  "name": "T-Mobile US",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "通信サービス",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "TROW",
+  "symbol": "TROW",
+  "name": "T. Rowe Price",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "TTWO",
+  "symbol": "TTWO",
+  "name": "Take-Two Interactive",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "通信サービス",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "TPR",
+  "symbol": "TPR",
+  "name": "Tapestry, Inc.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "TRGP",
+  "symbol": "TRGP",
+  "name": "Targa Resources",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "エネルギー",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "TGT",
+  "symbol": "TGT",
+  "name": "Target Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "TEL",
+  "symbol": "TEL",
+  "name": "TE Connectivity",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "TDY",
+  "symbol": "TDY",
+  "name": "Teledyne Technologies",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "TER",
+  "symbol": "TER",
+  "name": "Teradyne",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "TSLA",
+  "symbol": "TSLA",
+  "name": "Tesla, Inc.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "TXN",
+  "symbol": "TXN",
+  "name": "Texas Instruments",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "TPL",
+  "symbol": "TPL",
+  "name": "Texas Pacific Land Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "エネルギー",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "TXT",
+  "symbol": "TXT",
+  "name": "Textron",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "TMO",
+  "symbol": "TMO",
+  "name": "Thermo Fisher Scientific",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "TJX",
+  "symbol": "TJX",
+  "name": "TJX Companies",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "TKO",
+  "symbol": "TKO",
+  "name": "TKO Group Holdings",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "通信サービス",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "TSCO",
+  "symbol": "TSCO",
+  "name": "Tractor Supply",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "TT",
+  "symbol": "TT",
+  "name": "Trane Technologies",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "TDG",
+  "symbol": "TDG",
+  "name": "TransDigm Group",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "TRV",
+  "symbol": "TRV",
+  "name": "Travelers Companies (The)",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "TRMB",
+  "symbol": "TRMB",
+  "name": "Trimble Inc.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "TFC",
+  "symbol": "TFC",
+  "name": "Truist Financial",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "TWLO",
+  "symbol": "TWLO",
+  "name": "Twilio",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "TYL",
+  "symbol": "TYL",
+  "name": "Tyler Technologies",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "TSN",
+  "symbol": "TSN",
+  "name": "Tyson Foods",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "USB",
+  "symbol": "USB",
+  "name": "U.S. Bancorp",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "UBER",
+  "symbol": "UBER",
+  "name": "Uber",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "UDR",
+  "symbol": "UDR",
+  "name": "UDR, Inc.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ULTA",
+  "symbol": "ULTA",
+  "name": "Ulta Beauty",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "UNP",
+  "symbol": "UNP",
+  "name": "Union Pacific Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "UAL",
+  "symbol": "UAL",
+  "name": "United Airlines Holdings",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "UPS",
+  "symbol": "UPS",
+  "name": "United Parcel Service",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "URI",
+  "symbol": "URI",
+  "name": "United Rentals",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "UNH",
+  "symbol": "UNH",
+  "name": "UnitedHealth Group",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "UHS",
+  "symbol": "UHS",
+  "name": "Universal Health Services",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "VLO",
+  "symbol": "VLO",
+  "name": "Valero Energy",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "エネルギー",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "VEEV",
+  "symbol": "VEEV",
+  "name": "Veeva Systems",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "VTR",
+  "symbol": "VTR",
+  "name": "Ventas",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "VLTO",
+  "symbol": "VLTO",
+  "name": "Veralto",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "VRSN",
+  "symbol": "VRSN",
+  "name": "Verisign",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "VRSK",
+  "symbol": "VRSK",
+  "name": "Verisk Analytics",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "VZ",
+  "symbol": "VZ",
+  "name": "Verizon",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "通信サービス",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "VRTX",
+  "symbol": "VRTX",
+  "name": "Vertex Pharmaceuticals",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "VRT",
+  "symbol": "VRT",
+  "name": "Vertiv",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "VTRS",
+  "symbol": "VTRS",
+  "name": "Viatris",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "VICI",
+  "symbol": "VICI",
+  "name": "Vici Properties",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "V",
+  "symbol": "V",
+  "name": "Visa Inc.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "VST",
+  "symbol": "VST",
+  "name": "Vistra Corp.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "VMRK",
+  "symbol": "VMRK",
+  "name": "Vivmark Residential",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "VMC",
+  "symbol": "VMC",
+  "name": "Vulcan Materials Company",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "素材",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "VYLR",
+  "symbol": "VYLR",
+  "name": "Vylor",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "WRB",
+  "symbol": "WRB",
+  "name": "W. R. Berkley Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "GWW",
+  "symbol": "GWW",
+  "name": "W. W. Grainger",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "WAB",
+  "symbol": "WAB",
+  "name": "Wabtec",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "WMT",
+  "symbol": "WMT",
+  "name": "Walmart",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "生活必需品",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "DIS",
+  "symbol": "DIS",
+  "name": "Walt Disney Company (The)",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "通信サービス",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "WM",
+  "symbol": "WM",
+  "name": "Waste Management",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "WAT",
+  "symbol": "WAT",
+  "name": "Waters Corporation",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "WEC",
+  "symbol": "WEC",
+  "name": "WEC Energy Group",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "WFC",
+  "symbol": "WFC",
+  "name": "Wells Fargo",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "WELL",
+  "symbol": "WELL",
+  "name": "Welltower",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "WST",
+  "symbol": "WST",
+  "name": "West Pharmaceutical Services",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "WDC",
+  "symbol": "WDC",
+  "name": "Western Digital",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "WY",
+  "symbol": "WY",
+  "name": "Weyerhaeuser",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "不動産",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "WSM",
+  "symbol": "WSM",
+  "name": "Williams-Sonoma, Inc.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "WMB",
+  "symbol": "WMB",
+  "name": "Williams Companies",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "エネルギー",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "WTW",
+  "symbol": "WTW",
+  "name": "Willis Towers Watson",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "金融",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "WDAY",
+  "symbol": "WDAY",
+  "name": "Workday, Inc.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "WYNN",
+  "symbol": "WYNN",
+  "name": "Wynn Resorts",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "XEL",
+  "symbol": "XEL",
+  "name": "Xcel Energy",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "公益",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "XYL",
+  "symbol": "XYL",
+  "name": "Xylem Inc.",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "資本財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "YUM",
+  "symbol": "YUM",
+  "name": "Yum! Brands",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "一般消費財",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ZBRA",
+  "symbol": "ZBRA",
+  "name": "Zebra Technologies",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "情報技術",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ZBH",
+  "symbol": "ZBH",
+  "name": "Zimmer Biomet",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ZTS",
+  "symbol": "ZTS",
+  "name": "Zoetis",
+  "kind": "stock",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "SP500"
+  ]
+ },
+ {
+  "providerSymbol": "ADS.DE",
+  "symbol": "ADS",
+  "name": "Adidas",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "一般消費財",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "ADYEN.AS",
+  "symbol": "ADYEN",
+  "name": "Adyen",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "金融",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "AD.AS",
+  "symbol": "AD",
+  "name": "Ahold Delhaize",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "生活必需品",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "AI.PA",
+  "symbol": "AI",
+  "name": "Air Liquide",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "素材",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "AIR.PA",
+  "symbol": "AIR",
+  "name": "Airbus",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "資本財",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "ALV.DE",
+  "symbol": "ALV",
+  "name": "Allianz",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "金融",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "ABI.BR",
+  "symbol": "ABI",
+  "name": "Anheuser-Busch InBev",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "生活必需品",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "ARGX.BR",
+  "symbol": "ARGX",
+  "name": "Argenx",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "ASML.AS",
+  "symbol": "ASML",
+  "name": "ASML Holding",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "情報技術",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "CS.PA",
+  "symbol": "CS",
+  "name": "Axa",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "金融",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "BAS.DE",
+  "symbol": "BAS",
+  "name": "BASF",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "素材",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "BAYN.DE",
+  "symbol": "BAYN",
+  "name": "Bayer",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "BBVA.MC",
+  "symbol": "BBVA",
+  "name": "BBVA",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "金融",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "SAN.MC",
+  "symbol": "SAN",
+  "name": "Banco Santander",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "金融",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "BMW.DE",
+  "symbol": "BMW",
+  "name": "BMW",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "一般消費財",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "BNP.PA",
+  "symbol": "BNP",
+  "name": "BNP Paribas",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "金融",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "BN.PA",
+  "symbol": "BN",
+  "name": "Danone",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "生活必需品",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "DBK.DE",
+  "symbol": "DBK",
+  "name": "Deutsche Bank",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "金融",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "DB1.DE",
+  "symbol": "DB1",
+  "name": "Deutsche Börse",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "金融",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "DHL.DE",
+  "symbol": "DHL",
+  "name": "Deutsche Post",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "資本財",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "DTE.DE",
+  "symbol": "DTE",
+  "name": "Deutsche Telekom",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "通信サービス",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "ENEL.MI",
+  "symbol": "ENEL",
+  "name": "Enel",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "公益",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "ENI.MI",
+  "symbol": "ENI",
+  "name": "Eni",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "エネルギー",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "EL.PA",
+  "symbol": "EL",
+  "name": "EssilorLuxottica",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "RACE.MI",
+  "symbol": "RACE",
+  "name": "Ferrari",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "一般消費財",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "RMS.PA",
+  "symbol": "RMS",
+  "name": "Hermès",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "一般消費財",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "IBE.MC",
+  "symbol": "IBE",
+  "name": "Iberdrola",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "公益",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "ITX.MC",
+  "symbol": "ITX",
+  "name": "Inditex",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "一般消費財",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "IFX.DE",
+  "symbol": "IFX",
+  "name": "Infineon Technologies",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "情報技術",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "INGA.AS",
+  "symbol": "INGA",
+  "name": "ING Group",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "金融",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "ISP.MI",
+  "symbol": "ISP",
+  "name": "Intesa Sanpaolo",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "金融",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "OR.PA",
+  "symbol": "OR",
+  "name": "L'Oréal",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "生活必需品",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "MC.PA",
+  "symbol": "MC",
+  "name": "LVMH Moët Hennessy Louis Vuitton",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "一般消費財",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "MBG.DE",
+  "symbol": "MBG",
+  "name": "Mercedes-Benz Group",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "一般消費財",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "MUV2.DE",
+  "symbol": "MUV2",
+  "name": "Munich Re",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "金融",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "NDA-FI.HE",
+  "symbol": "NDA-FI",
+  "name": "Nordea",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "金融",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "PRX.AS",
+  "symbol": "PRX",
+  "name": "Prosus",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "一般消費財",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "RHM.DE",
+  "symbol": "RHM",
+  "name": "Rheinmetall",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "資本財",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "SAF.PA",
+  "symbol": "SAF",
+  "name": "Safran",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "資本財",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "SGO.PA",
+  "symbol": "SGO",
+  "name": "Saint-Gobain",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "資本財",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "SAN.PA",
+  "symbol": "SAN",
+  "name": "Sanofi",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "ヘルスケア",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "SAP.DE",
+  "symbol": "SAP",
+  "name": "SAP",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "情報技術",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "SU.PA",
+  "symbol": "SU",
+  "name": "Schneider Electric",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "資本財",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "SIE.DE",
+  "symbol": "SIE",
+  "name": "Siemens",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "資本財",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "ENR.DE",
+  "symbol": "ENR",
+  "name": "Siemens Energy",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "資本財",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "TTE.PA",
+  "symbol": "TTE",
+  "name": "TotalEnergies",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "エネルギー",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "DG.PA",
+  "symbol": "DG",
+  "name": "Vinci SA",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "資本財",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "UCG.MI",
+  "symbol": "UCG",
+  "name": "UniCredit",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "金融",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "VOW.DE",
+  "symbol": "VOW",
+  "name": "Volkswagen Group",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "一般消費財",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "WKL.AS",
+  "symbol": "WKL",
+  "name": "Wolters Kluwer",
+  "kind": "stock",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "資本財",
+  "indexes": [
+   "EUROSTOXX50"
+  ]
+ },
+ {
+  "providerSymbol": "BTC-USD",
+  "symbol": "BTC",
+  "name": "ビットコイン",
+  "kind": "crypto",
+  "market": "CRYPTO",
+  "currency": "USD",
+  "sector": "暗号資産",
+  "indexes": [
+   "CRYPTO"
+  ]
+ },
+ {
+  "providerSymbol": "ETH-USD",
+  "symbol": "ETH",
+  "name": "イーサリアム",
+  "kind": "crypto",
+  "market": "CRYPTO",
+  "currency": "USD",
+  "sector": "暗号資産",
+  "indexes": [
+   "CRYPTO"
+  ]
+ },
+ {
+  "providerSymbol": "XRP-USD",
+  "symbol": "XRP",
+  "name": "XRP",
+  "kind": "crypto",
+  "market": "CRYPTO",
+  "currency": "USD",
+  "sector": "暗号資産",
+  "indexes": [
+   "CRYPTO"
+  ]
+ },
+ {
+  "providerSymbol": "BNB-USD",
+  "symbol": "BNB",
+  "name": "BNB",
+  "kind": "crypto",
+  "market": "CRYPTO",
+  "currency": "USD",
+  "sector": "暗号資産",
+  "indexes": [
+   "CRYPTO"
+  ]
+ },
+ {
+  "providerSymbol": "SOL-USD",
+  "symbol": "SOL",
+  "name": "ソラナ",
+  "kind": "crypto",
+  "market": "CRYPTO",
+  "currency": "USD",
+  "sector": "暗号資産",
+  "indexes": [
+   "CRYPTO"
+  ]
+ },
+ {
+  "providerSymbol": "DOGE-USD",
+  "symbol": "DOGE",
+  "name": "ドージコイン",
+  "kind": "crypto",
+  "market": "CRYPTO",
+  "currency": "USD",
+  "sector": "暗号資産",
+  "indexes": [
+   "CRYPTO"
+  ]
+ },
+ {
+  "providerSymbol": "ADA-USD",
+  "symbol": "ADA",
+  "name": "カルダノ",
+  "kind": "crypto",
+  "market": "CRYPTO",
+  "currency": "USD",
+  "sector": "暗号資産",
+  "indexes": [
+   "CRYPTO"
+  ]
+ },
+ {
+  "providerSymbol": "LTC-USD",
+  "symbol": "LTC",
+  "name": "ライトコイン",
+  "kind": "crypto",
+  "market": "CRYPTO",
+  "currency": "USD",
+  "sector": "暗号資産",
+  "indexes": [
+   "CRYPTO"
+  ]
+ },
+ {
+  "providerSymbol": "1321.T",
+  "symbol": "1321",
+  "name": "日経225連動型上場投資信託",
+  "kind": "etf",
+  "market": "JP",
+  "currency": "JPY",
+  "sector": "ETF",
+  "indexes": [
+   "ETF"
+  ]
+ },
+ {
+  "providerSymbol": "SPY",
+  "symbol": "SPY",
+  "name": "SPDR S&P 500 ETF",
+  "kind": "etf",
+  "market": "US",
+  "currency": "USD",
+  "sector": "ETF",
+  "indexes": [
+   "ETF"
+  ]
+ },
+ {
+  "providerSymbol": "EXW1.DE",
+  "symbol": "EXW1",
+  "name": "iShares Core EURO STOXX 50 UCITS ETF (DE)",
+  "kind": "etf",
+  "market": "EU",
+  "currency": "EUR",
+  "sector": "ETF",
+  "indexes": [
+   "ETF"
+  ]
+ }
+]
