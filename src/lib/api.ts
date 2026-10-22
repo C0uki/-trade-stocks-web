@@ -3,6 +3,15 @@ import { z } from "zod";
 import { auth } from "@/auth";
 import { GameError } from "@/lib/game/errors";
 
+/** 管理者だけが使える操作。管理者以外には存在しないものとして 404 を返す */
+export async function requireAdmin(): Promise<string> {
+  const session = await auth();
+  const id = session?.user?.id;
+  if (!id) throw new GameError(401, "ログインしてください");
+  if (!session.user.isAdmin) throw new GameError(404, "見つかりません");
+  return id;
+}
+
 /** ログイン中のユーザー ID。未ログインなら 401 */
 export async function requireUserId(): Promise<string> {
   const session = await auth();

@@ -15,7 +15,8 @@
     "db:migrate": "tsx scripts/migrate.ts",
     "import:universe": "tsx scripts/import/universe/build.ts",
     "import:data": "tsx scripts/import/run.ts",
-    "seed:dev": "tsx scripts/seed-dev.ts"
+    "seed:dev": "tsx scripts/seed-dev.ts",
+    "generate:synthetic": "tsx scripts/synthetic/generate.ts"
   },
   "dependencies": {
     "@auth/drizzle-adapter": "^1.11.3",

@@ -15,6 +15,13 @@
       "when": 1792654095454,
       "tag": "0001_equity_benchmark",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1792661071167,
+      "tag": "0002_synthetic_and_invites",
+      "breakpoints": true
     }
   ]
 }

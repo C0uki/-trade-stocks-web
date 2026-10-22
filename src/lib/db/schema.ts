@@ -26,6 +26,18 @@ export const users = pgTable("users", {
   image: text("image"),
   /** ランキングに表示する名前 */
   nickname: text("nickname"),
+  /** 招待コードで認められた身内。実データで遊べる */
+  isInsider: boolean("is_insider").notNull().default(false),
+});
+
+/** 身内を招待するコード。使えるのは1回だけ */
+export const inviteCodes = pgTable("invite_codes", {
+  code: text("code").primaryKey(),
+  createdBy: text("created_by").references(() => users.id, { onDelete: "set null" }),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+  usedBy: text("used_by").references(() => users.id, { onDelete: "set null" }),
+  usedAt: timestamp("used_at", { withTimezone: true }),
+  revokedAt: timestamp("revoked_at", { withTimezone: true }),
 });
 
 export const accounts = pgTable(
@@ -68,8 +80,13 @@ export const verificationTokens = pgTable(
 
 /* ───────────── 市場データ（取込スクリプトが書き込む） ───────────── */
 
+/** real＝実データ（身内のみ）、synthetic＝数式モデルで生成した架空のデータ（誰でも） */
+export const DATASETS = ["real", "synthetic"] as const;
+export type Dataset = (typeof DATASETS)[number];
+
 export const instruments = pgTable("instruments", {
   id: serial("id").primaryKey(),
+  dataset: text("dataset", { enum: DATASETS }).notNull().default("real"),
   /** 表示用のティッカー（例: 7203, AAPL, SAP, BTC） */
   symbol: text("symbol").notNull(),
   /** データ源でのシンボル（例: 7203.T, SAP.DE, BTC-USD） */
@@ -119,11 +136,12 @@ export const dailyBars = pgTable(
 export const fxRates = pgTable(
   "fx_rates",
   {
+    dataset: text("dataset", { enum: DATASETS }).notNull().default("real"),
     currency: text("currency").notNull(),
     date: date("date").notNull(),
     jpyPerUnit: doublePrecision("jpy_per_unit").notNull(),
   },
-  (t) => [primaryKey({ columns: [t.currency, t.date] })],
+  (t) => [primaryKey({ columns: [t.dataset, t.currency, t.date] })],
 );
 
 /** 配当（1株あたり・現地通貨・分割補正済み） */
@@ -176,6 +194,7 @@ export const scenarios = pgTable(
       .notNull()
       .references(() => users.id, { onDelete: "cascade" }),
     mode: text("mode", { enum: ["ranked", "practice"] }).notNull(),
+    dataset: text("dataset", { enum: DATASETS }).notNull().default("real"),
     /** 練習モードで実価格・実日付を表示するか */
     showReal: boolean("show_real").notNull().default(false),
     /** カレンダー0日目（開始日）の実日付。ランク戦では終了までクライアントに出さない */
@@ -193,10 +212,10 @@ export const scenarios = pgTable(
   },
   (t) => [
     index("scenarios_user_idx").on(t.userId),
-    index("scenarios_ranking_idx").on(t.mode, t.status, t.finishedAt),
-    // ランク戦は同時に1本まで
+    index("scenarios_ranking_idx").on(t.dataset, t.mode, t.status, t.finishedAt),
+    // ランク戦はデータごとに同時に1本まで
     uniqueIndex("scenarios_one_active_ranked")
-      .on(t.userId)
+      .on(t.userId, t.dataset)
       .where(sql`${t.mode} = 'ranked' and ${t.status} = 'active'`),
   ],
 );

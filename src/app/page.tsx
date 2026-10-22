@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { auth } from "@/auth";
 import { StartButton } from "@/components/StartButton";
+import type { Dataset } from "@/lib/db/schema";
 import { points, tone } from "@/lib/format";
 import { currentSeason, mySeasonProgress, seasonRanking } from "@/lib/game/ranking";
 import { myScenarios } from "@/lib/game/views";
@@ -9,13 +10,13 @@ import { ja } from "@/lib/i18n/ja";
 export default async function Home() {
   const session = await auth();
   const userId = session?.user?.id;
+  const datasets: Dataset[] = session?.user?.isInsider ? ["synthetic", "real"] : ["synthetic"];
   const season = currentSeason();
-  const [scenarios, top, progress] = await Promise.all([
+  const [scenarios, tops, progress] = await Promise.all([
     userId ? myScenarios(userId) : Promise.resolve([]),
-    seasonRanking(season),
-    userId ? mySeasonProgress(userId, season) : Promise.resolve(null),
+    Promise.all(datasets.map((d) => seasonRanking(season, d))),
+    userId ? Promise.all(datasets.map((d) => mySeasonProgress(userId, season, d))) : Promise.resolve(null),
   ]);
-  const activeRanked = scenarios.find((s) => s.mode === "ranked" && s.status === "active");
 
   return (
     <div className="grid grid-cols-1 gap-5 lg:grid-cols-[minmax(0,1fr)_360px]">
@@ -36,18 +37,27 @@ export default async function Home() {
             <Link href="/login" className="btn btn-primary">
               {ja.home.loginToPlay}
             </Link>
-          ) : activeRanked ? (
-            <Link href={`/play/${activeRanked.id}`} className="btn btn-primary">
-              {ja.home.continueRanked}（{ja.home.dayN(activeRanked.currentDay)}）
-            </Link>
           ) : (
-            <StartButton label={ja.home.startRanked} body={{ mode: "ranked" }} />
+            datasets.map((d) => {
+              const active = scenarios.find((s) => s.dataset === d && s.mode === "ranked" && s.status === "active");
+              return active ? (
+                <Link key={d} href={`/play/${active.id}`} className="btn btn-primary">
+                  {ja.home.continueRanked(ja.dataset[d])}（{ja.home.dayN(active.currentDay)}）
+                </Link>
+              ) : (
+                <StartButton key={d} label={ja.home.startRanked(ja.dataset[d])} body={{ mode: "ranked", dataset: d }} />
+              );
+            })
           )}
           <Link href="/practice" className="btn">
             {ja.home.practice}
           </Link>
         </div>
-        {progress && <p className="mt-3 text-sm text-muted">{ja.home.progress(progress.count, progress.required)}</p>}
+        {progress?.map((p, i) => (
+          <p key={datasets[i]} className="mt-2 text-sm text-muted">
+            {ja.home.progress(ja.dataset[datasets[i]], p.count, p.required)}
+          </p>
+        ))}
 
         {userId && (
           <div className="mt-8">
@@ -60,6 +70,7 @@ export default async function Home() {
                   <thead>
                     <tr>
                       <th>{ja.home.cols.mode}</th>
+                      <th>{ja.home.cols.dataset}</th>
                       <th>{ja.home.cols.status}</th>
                       <th>{ja.home.cols.period}</th>
                       <th className="num">{ja.home.cols.day}</th>
@@ -71,9 +82,14 @@ export default async function Home() {
                     {scenarios.map((s) => (
                       <tr key={s.id}>
                         <td>{s.mode === "ranked" ? ja.scenario.ranked : ja.scenario.practice}</td>
+                        <td>{ja.dataset[s.dataset]}</td>
                         <td>{ja.scenario.status[s.status]}</td>
                         <td className="text-muted">
-                          {s.period ? `${s.period.start} 〜 ${s.period.end}` : ja.scenario.hiddenPeriod}
+                          {s.period
+                            ? `${s.period.start} 〜 ${s.period.end}`
+                            : s.fictionalPeriod
+                              ? ja.fictional(s.fictionalPeriod.startYear, s.fictionalPeriod.endYear)
+                              : ja.scenario.hiddenPeriod}
                         </td>
                         <td className="num">{ja.home.dayN(s.currentDay)}</td>
                         <td className={`num ${tone(s.score)}`}>{points(s.score)}</td>
@@ -95,29 +111,35 @@ export default async function Home() {
         )}
       </section>
 
-      <aside className="panel h-fit p-5">
-        <div className="flex items-baseline justify-between">
-          <h2 className="font-semibold">{ja.home.seasonTop}</h2>
-          <span className="text-xs text-muted">{season}</span>
-        </div>
-        {top.length === 0 ? (
-          <p className="mt-3 text-sm text-muted">{ja.ranking.empty}</p>
-        ) : (
-          <ol className="mt-3 space-y-1.5 text-sm">
-            {top.slice(0, 10).map((r) => (
-              <li key={r.userId} className="flex justify-between gap-2">
-                <span>
-                  <span className="mr-2 inline-block w-5 text-right text-muted">{r.rank}</span>
-                  {r.name}
-                </span>
-                <span className={tone(r.avgScore)}>{points(r.avgScore)}</span>
-              </li>
-            ))}
-          </ol>
-        )}
-        <Link href="/ranking" className="mt-4 inline-block text-sm text-accent hover:underline">
-          {ja.ranking.title} →
-        </Link>
+      <aside className="panel h-fit space-y-5 p-5">
+        {datasets.map((d, i) => (
+          <div key={d}>
+            <div className="flex items-baseline justify-between">
+              <h2 className="font-semibold">
+                {ja.home.seasonTop}（{ja.dataset[d]}）
+              </h2>
+              <span className="text-xs text-muted">{season}</span>
+            </div>
+            {tops[i].length === 0 ? (
+              <p className="mt-3 text-sm text-muted">{ja.ranking.empty}</p>
+            ) : (
+              <ol className="mt-3 space-y-1.5 text-sm">
+                {tops[i].slice(0, 10).map((r) => (
+                  <li key={r.userId} className="flex justify-between gap-2">
+                    <span>
+                      <span className="mr-2 inline-block w-5 text-right text-muted">{r.rank}</span>
+                      {r.name}
+                    </span>
+                    <span className={tone(r.avgScore)}>{points(r.avgScore)}</span>
+                  </li>
+                ))}
+              </ol>
+            )}
+            <Link href={`/ranking?dataset=${d}`} className="mt-3 inline-block text-sm text-accent hover:underline">
+              {ja.ranking.title} →
+            </Link>
+          </div>
+        ))}
       </aside>
     </div>
   );

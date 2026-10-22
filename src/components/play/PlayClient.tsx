@@ -81,7 +81,10 @@ export function PlayClient({ id, initial, initialMarket }: Props) {
       <section className="panel flex flex-wrap items-center gap-x-6 gap-y-3 p-4">
         <div>
           <div className="text-xs text-muted">
-            {view.mode === "ranked" ? ja.scenario.ranked : ja.scenario.practice}
+            {view.mode === "ranked" ? ja.scenario.ranked : ja.scenario.practice} ·{" "}
+            <span className={view.dataset === "real" ? "font-semibold text-accent" : ""} data-testid="dataset">
+              {ja.dataset[view.dataset]}
+            </span>
             {view.currentDate && ` · ${view.currentDate}`}
           </div>
           <div className="text-lg font-bold" data-testid="day">

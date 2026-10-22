@@ -9,7 +9,7 @@ export function PracticeForm({ min, max }: { min: string; max: string }) {
   const [date, setDate] = useState(max.slice(0, 4) >= "2020" ? "2020-01-02" : min);
   const [showReal, setShowReal] = useState(true);
   return (
-    <div className="mt-5 space-y-4">
+    <div className="mt-3 space-y-4">
       <label className="flex items-center gap-2 text-sm">
         <input type="checkbox" checked={random} onChange={(e) => setRandom(e.target.checked)} />
         {ja.practice.random}
@@ -34,7 +34,7 @@ export function PracticeForm({ min, max }: { min: string; max: string }) {
       </label>
       <StartButton
         label={ja.practice.start}
-        body={{ mode: "practice", startDate: random ? undefined : date, showReal }}
+        body={{ mode: "practice", dataset: "real", startDate: random ? undefined : date, showReal }}
       />
     </div>
   );

@@ -5,6 +5,7 @@ import GitHub from "next-auth/providers/github";
 import Google from "next-auth/providers/google";
 import { eq } from "drizzle-orm";
 import { db, schema } from "@/lib/db";
+import { isAdminEmail } from "@/lib/game/invite-code";
 
 /**
  * 開発・E2E 用のテストログイン。名前だけでログインできるので、
@@ -44,8 +45,16 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
   providers,
   pages: { signIn: "/login" },
   callbacks: {
-    session({ session, token }) {
-      if (token.sub) session.user.id = token.sub;
+    // 身内・管理者かどうかは招待コードの使用で変わるので、トークンに焼き込まず毎回 DB から読む
+    async session({ session, token }) {
+      if (!token.sub) return session;
+      session.user.id = token.sub;
+      const [u] = await db
+        .select({ isInsider: schema.users.isInsider, email: schema.users.email })
+        .from(schema.users)
+        .where(eq(schema.users.id, token.sub));
+      session.user.isInsider = !!u?.isInsider;
+      session.user.isAdmin = isAdminEmail(u?.email);
       return session;
     },
   },
