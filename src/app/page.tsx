@@ -1,69 +1,124 @@
-import Image from "next/image";
+import Link from "next/link";
+import { auth } from "@/auth";
+import { StartButton } from "@/components/StartButton";
+import { points, tone } from "@/lib/format";
+import { currentSeason, mySeasonProgress, seasonRanking } from "@/lib/game/ranking";
+import { myScenarios } from "@/lib/game/views";
+import { ja } from "@/lib/i18n/ja";
 
-export default function Home() {
+export default async function Home() {
+  const session = await auth();
+  const userId = session?.user?.id;
+  const season = currentSeason();
+  const [scenarios, top, progress] = await Promise.all([
+    userId ? myScenarios(userId) : Promise.resolve([]),
+    seasonRanking(season),
+    userId ? mySeasonProgress(userId, season) : Promise.resolve(null),
+  ]);
+  const activeRanked = scenarios.find((s) => s.mode === "ranked" && s.status === "active");
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div className="grid grid-cols-1 gap-5 lg:grid-cols-[minmax(0,1fr)_360px]">
+      <section className="panel p-6">
+        <p className="text-sm font-semibold text-accent">{ja.app.tagline}</p>
+        <h1 className="mt-1 text-2xl font-bold sm:text-3xl">{ja.app.name}</h1>
+        <p className="mt-3 text-muted">{ja.home.lead}</p>
+        <ul className="mt-4 space-y-1.5 text-sm">
+          {ja.home.points.map((p) => (
+            <li key={p} className="flex gap-2">
+              <span className="text-accent">●</span>
+              {p}
+            </li>
+          ))}
+        </ul>
+        <div className="mt-6 flex flex-wrap items-start gap-3">
+          {!userId ? (
+            <Link href="/login" className="btn btn-primary">
+              {ja.home.loginToPlay}
+            </Link>
+          ) : activeRanked ? (
+            <Link href={`/play/${activeRanked.id}`} className="btn btn-primary">
+              {ja.home.continueRanked}（{ja.home.dayN(activeRanked.currentDay)}）
+            </Link>
+          ) : (
+            <StartButton label={ja.home.startRanked} body={{ mode: "ranked" }} />
+          )}
+          <Link href="/practice" className="btn">
+            {ja.home.practice}
+          </Link>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+        {progress && <p className="mt-3 text-sm text-muted">{ja.home.progress(progress.count, progress.required)}</p>}
+
+        {userId && (
+          <div className="mt-8">
+            <h2 className="mb-2 font-semibold">{ja.home.myScenarios}</h2>
+            {scenarios.length === 0 ? (
+              <p className="text-sm text-muted">{ja.home.noScenarios}</p>
+            ) : (
+              <div className="overflow-x-auto">
+                <table className="data">
+                  <thead>
+                    <tr>
+                      <th>{ja.home.cols.mode}</th>
+                      <th>{ja.home.cols.status}</th>
+                      <th>{ja.home.cols.period}</th>
+                      <th className="num">{ja.home.cols.day}</th>
+                      <th className="num">{ja.home.cols.score}</th>
+                      <th />
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {scenarios.map((s) => (
+                      <tr key={s.id}>
+                        <td>{s.mode === "ranked" ? ja.scenario.ranked : ja.scenario.practice}</td>
+                        <td>{ja.scenario.status[s.status]}</td>
+                        <td className="text-muted">
+                          {s.period ? `${s.period.start} 〜 ${s.period.end}` : ja.scenario.hiddenPeriod}
+                        </td>
+                        <td className="num">{ja.home.dayN(s.currentDay)}</td>
+                        <td className={`num ${tone(s.score)}`}>{points(s.score)}</td>
+                        <td>
+                          <Link
+                            href={s.status === "active" ? `/play/${s.id}` : `/result/${s.id}`}
+                            className="text-accent hover:underline"
+                          >
+                            {s.status === "active" ? ja.scenario.open : ja.scenario.result}
+                          </Link>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
+          </div>
+        )}
+      </section>
+
+      <aside className="panel h-fit p-5">
+        <div className="flex items-baseline justify-between">
+          <h2 className="font-semibold">{ja.home.seasonTop}</h2>
+          <span className="text-xs text-muted">{season}</span>
         </div>
-      </main>
+        {top.length === 0 ? (
+          <p className="mt-3 text-sm text-muted">{ja.ranking.empty}</p>
+        ) : (
+          <ol className="mt-3 space-y-1.5 text-sm">
+            {top.slice(0, 10).map((r) => (
+              <li key={r.userId} className="flex justify-between gap-2">
+                <span>
+                  <span className="mr-2 inline-block w-5 text-right text-muted">{r.rank}</span>
+                  {r.name}
+                </span>
+                <span className={tone(r.avgScore)}>{points(r.avgScore)}</span>
+              </li>
+            ))}
+          </ol>
+        )}
+        <Link href="/ranking" className="mt-4 inline-block text-sm text-accent hover:underline">
+          {ja.ranking.title} →
+        </Link>
+      </aside>
     </div>
   );
 }
